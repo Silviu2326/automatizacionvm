@@ -29,11 +29,25 @@ npm install
 
 ### 3. Configurar variables de entorno
 
-En el dashboard de Vercel, añade estas variables:
+**⚠️ IMPORTANTE**: NO configures las variables en `vercel.json`. Deben configurarse en el dashboard de Vercel.
 
+#### Pasos para configurar variables en Vercel:
+
+1. **Ve al dashboard de Vercel**: https://vercel.com/dashboard
+2. **Selecciona tu proyecto**
+3. **Ve a Settings → Environment Variables**
+4. **Agrega cada variable**:
+   - `VITE_API_URL`: `http://tu-vm-ip:3001` (reemplaza `tu-vm-ip` con la IP real)
+   - `VITE_WS_URL`: `ws://tu-vm-ip:3001` (reemplaza `tu-vm-ip` con la IP real)
+   - `VITE_NOTION_TOKEN`: `tu_token_aqui` (opcional)
+   - `VITE_NOTION_PARENT_ID`: `tu_parent_id_aqui` (opcional)
+5. **Asegúrate de que estén habilitadas para**: Production, Preview y Development
+6. **Guarda los cambios**
+
+#### Ejemplo de configuración:
 ```
-VITE_API_URL=http://tu-vm-ip:3001
-VITE_WS_URL=ws://tu-vm-ip:3001
+VITE_API_URL=http://192.168.1.100:3001
+VITE_WS_URL=ws://192.168.1.100:3001
 ```
 
 ### 4. Desplegar en Vercel
@@ -75,17 +89,27 @@ Una vez desplegado, tu app estará disponible en:
 
 ## 🐛 Troubleshooting
 
+### Error: "Environment Variable VITE_API_URL references Secret which does not exist"
+**Solución**: 
+1. Ve a Settings → Environment Variables en Vercel
+2. Asegúrate de que `VITE_API_URL` esté configurada como Variable (no como Secret)
+3. Si aparece como Secret, elimínala y créala de nuevo como Variable
+4. Verifica que el valor sea correcto (ej: `http://192.168.1.100:3001`)
+
 ### Error: "Failed to fetch"
 - Verifica que la VM esté ejecutándose
 - Comprueba que el puerto 3001 esté abierto
-- Revisa las variables de entorno
+- Revisa las variables de entorno en Vercel dashboard
+- Asegúrate de que la IP de la VM sea accesible desde internet
 
 ### Error: "WebSocket connection failed"
-- Verifica VITE_WS_URL
+- Verifica VITE_WS_URL en Vercel dashboard
 - Comprueba que el WebSocket esté habilitado en la VM
+- Asegúrate de que la URL use `ws://` (no `wss://` a menos que tengas SSL)
 
 ### Error: "Build failed"
 - Verifica que todas las dependencias estén en package.json
 - Revisa que no haya imports del backend en el frontend
+- Comprueba que las variables de entorno estén configuradas correctamente
 
 
