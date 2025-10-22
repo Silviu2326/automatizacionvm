@@ -1,0 +1,151 @@
+{
+  "nombre": "Ejemplo MD → Módulo",
+  "descripcion": "Archivo de ejemplo para convertir Markdown a módulos estructurados",
+  "tipo": "md_modulo",
+  "contenido_markdown": "# Sistema de Gestión de Contenido\n\n## Introducción\n\nEste es un sistema para gestionar contenido de manera estructurada.\n\n## Características Principales\n\n### 1. Organización Modular\n- **Módulo de Usuarios**: Gestión de usuarios del sistema\n- **Módulo de Contenido**: Creación y edición de contenido\n- **Módulo de Reportes**: Generación de reportes y estadísticas\n\n### 2. Funcionalidades\n\n#### Autenticación\n```javascript\nconst auth = {\n  login: (user, pass) => { /* lógica de login */ },\n  logout: () => { /* lógica de logout */ }\n};\n```\n\n#### Gestión de Contenido\n- Crear nuevos artículos\n- Editar contenido existente\n- Publicar contenido\n- Archivar contenido antiguo\n\n## Configuración del Sistema\n\n### Variables de Entorno\n```env\nDB_HOST=localhost\nDB_PORT=5432\nAPI_KEY=tu_api_key_aqui\n```\n\n### Estructura de Base de Datos\n\n| Tabla | Descripción | Campos Principales |\n|-------|-------------|-------------------|\n| users | Usuarios del sistema | id, name, email, role |\n| content | Contenido | id, title, body, author_id |\n| modules | Módulos del sistema | id, name, description, status |\n\n## Flujo de Trabajo\n\n1. **Inicio**: Usuario se autentica\n2. **Selección**: Elige el módulo a trabajar\n3. **Procesamiento**: Ejecuta las operaciones necesarias\n4. **Finalización**: Guarda los cambios\n\n## Casos de Uso\n\n### Caso 1: Crear Nuevo Contenido\n1. Usuario accede al módulo de contenido\n2. Selecciona \"Crear Nuevo\"\n3. Completa el formulario\n4. Guarda el contenido\n\n### Caso 2: Generar Reporte\n1. Usuario accede al módulo de reportes\n2. Selecciona el tipo de reporte\n3. Configura los parámetros\n4. Genera el reporte\n\n## Consideraciones Técnicas\n\n### Rendimiento\n- **Caché**: Implementar caché para consultas frecuentes\n- **Índices**: Crear índices en campos de búsqueda\n- **Optimización**: Optimizar consultas complejas\n\n### Seguridad\n- **Autenticación**: Verificar identidad del usuario\n- **Autorización**: Controlar acceso a módulos\n- **Validación**: Validar entrada de datos\n\n## Conclusión\n\nEste sistema modular permite una gestión eficiente del contenido con una arquitectura escalable y mantenible.",
+  "configuracion_modulo": {
+    "estructura": {
+      "titulo_principal": "Sistema de Gestión de Contenido",
+      "secciones": [
+        {
+          "nombre": "Introducción",
+          "tipo": "texto",
+          "contenido": "Este es un sistema para gestionar contenido de manera estructurada."
+        },
+        {
+          "nombre": "Características Principales",
+          "tipo": "lista",
+          "subsecciones": [
+            {
+              "nombre": "Organización Modular",
+              "tipo": "lista_anidada",
+              "items": [
+                "Módulo de Usuarios: Gestión de usuarios del sistema",
+                "Módulo de Contenido: Creación y edición de contenido",
+                "Módulo de Reportes: Generación de reportes y estadísticas"
+              ]
+            },
+            {
+              "nombre": "Funcionalidades",
+              "tipo": "codigo_y_texto",
+              "subsecciones": [
+                {
+                  "nombre": "Autenticación",
+                  "tipo": "codigo",
+                  "lenguaje": "javascript"
+                },
+                {
+                  "nombre": "Gestión de Contenido",
+                  "tipo": "lista",
+                  "items": [
+                    "Crear nuevos artículos",
+                    "Editar contenido existente",
+                    "Publicar contenido",
+                    "Archivar contenido antiguo"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Configuración del Sistema",
+          "tipo": "mixto",
+          "subsecciones": [
+            {
+              "nombre": "Variables de Entorno",
+              "tipo": "codigo",
+              "lenguaje": "env"
+            },
+            {
+              "nombre": "Estructura de Base de Datos",
+              "tipo": "tabla"
+            }
+          ]
+        },
+        {
+          "nombre": "Flujo de Trabajo",
+          "tipo": "lista_numerada",
+          "items": [
+            "Inicio: Usuario se autentica",
+            "Selección: Elige el módulo a trabajar",
+            "Procesamiento: Ejecuta las operaciones necesarias",
+            "Finalización: Guarda los cambios"
+          ]
+        },
+        {
+          "nombre": "Casos de Uso",
+          "tipo": "casos_uso",
+          "subsecciones": [
+            {
+              "nombre": "Caso 1: Crear Nuevo Contenido",
+              "tipo": "proceso",
+              "pasos": [
+                "Usuario accede al módulo de contenido",
+                "Selecciona \"Crear Nuevo\"",
+                "Completa el formulario",
+                "Guarda el contenido"
+              ]
+            },
+            {
+              "nombre": "Caso 2: Generar Reporte",
+              "tipo": "proceso",
+              "pasos": [
+                "Usuario accede al módulo de reportes",
+                "Selecciona el tipo de reporte",
+                "Configura los parámetros",
+                "Genera el reporte"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Consideraciones Técnicas",
+          "tipo": "mixto",
+          "subsecciones": [
+            {
+              "nombre": "Rendimiento",
+              "tipo": "lista",
+              "items": [
+                "Caché: Implementar caché para consultas frecuentes",
+                "Índices: Crear índices en campos de búsqueda",
+                "Optimización: Optimizar consultas complejas"
+              ]
+            },
+            {
+              "nombre": "Seguridad",
+              "tipo": "lista",
+              "items": [
+                "Autenticación: Verificar identidad del usuario",
+                "Autorización: Controlar acceso a módulos",
+                "Validación: Validar entrada de datos"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Conclusión",
+          "tipo": "texto",
+          "contenido": "Este sistema modular permite una gestión eficiente del contenido con una arquitectura escalable y mantenible."
+        }
+      ]
+    },
+    "metadatos": {
+      "autor": "Sistema Orquestador",
+      "fecha_creacion": "2025-10-21",
+      "version": "1.0.0",
+      "tags": ["markdown", "modulo", "estructura", "sistema"],
+      "categoria": "documentacion_tecnica"
+    },
+    "configuracion_procesamiento": {
+      "tiempo_espera": 30,
+      "modo": "secuencial",
+      "reintentos": 3,
+      "formato_salida": "modulo_estructurado",
+      "incluir_metadatos": true,
+      "validar_estructura": true
+    }
+  }
+}
+
+

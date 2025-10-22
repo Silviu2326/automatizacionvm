@@ -1,0 +1,37 @@
+{
+  "nombre": "Extractor de Contenido Notion",
+  "version": "1.0",
+  "descripcion": "Prompts para extraer y procesar contenido de Notion",
+  "prompts": [
+    {
+      "id": "notion_content_extraction",
+      "nombre": "Extracción de Contenido",
+      "prompt": "Extrae contenido completo de páginas de Notion:\n\n## 📄 EXTRACCIÓN DE CONTENIDO\n- Texto y formato\n- Imágenes y archivos\n- Tablas y bases de datos\n- Enlaces y referencias\n- Metadatos y propiedades\n\n## 🔍 PROCESAMIENTO\n- Limpieza de formato\n- Estructuración de datos\n- Categorización de contenido\n- Extracción de metadatos\n- Validación de integridad\n\n## 📊 BASES DE DATOS\n- Exportación de registros\n- Propiedades y relaciones\n- Filtros y vistas\n- Fórmulas y cálculos\n- Datos estructurados\n\n## 🔗 ENLACES Y REFERENCIAS\n- Enlaces internos\n- Enlaces externos\n- Archivos adjuntos\n- Imágenes embebidas\n- Referencias cruzadas\n\n## 🎯 FORMATOS DE SALIDA\n- Markdown estructurado\n- HTML semántico\n- JSON estructurado\n- CSV para datos\n- XML para metadatos\n\nProporciona extracción completa con múltiples formatos de salida.",
+      "contexto": "Extracción de contenido de Notion"
+    },
+    {
+      "id": "notion_api_integration",
+      "nombre": "Integración con API de Notion",
+      "prompt": "Integra con la API oficial de Notion:\n\n## 🔌 CONFIGURACIÓN API\n- Autenticación con tokens\n- Configuración de permisos\n- Rate limiting\n- Manejo de errores\n- Logging y monitoreo\n\n## 📡 ENDPOINTS\n- Páginas y bloques\n- Bases de datos\n- Usuarios y permisos\n- Búsquedas\n- Webhooks\n\n## 🔄 SINCRONIZACIÓN\n- Sincronización bidireccional\n- Detección de cambios\n- Resolución de conflictos\n- Backup automático\n- Versionado\n\n## 📊 PROCESAMIENTO\n- Parsing de bloques\n- Conversión de formatos\n- Validación de datos\n- Transformación de contenido\n- Optimización de rendimiento\n\n## 🎯 CASOS DE USO\n- Migración de contenido\n- Sincronización con CMS\n- Backup automatizado\n- Análisis de contenido\n- Integración con herramientas\n\nIncluye ejemplos de implementación con diferentes lenguajes.",
+      "contexto": "Integración con API de Notion"
+    },
+    {
+      "id": "notion_content_analysis",
+      "nombre": "Análisis de Contenido",
+      "prompt": "Analiza contenido extraído de Notion:\n\n## 📈 ANÁLISIS DE CONTENIDO\n- Estadísticas de texto\n- Análisis de estructura\n- Detección de patrones\n- Métricas de engagement\n- Análisis de calidad\n\n## 🏷️ CATEGORIZACIÓN\n- Clasificación automática\n- Extracción de tags\n- Detección de temas\n- Análisis de sentimiento\n- Clustering de contenido\n\n## 📊 MÉTRICAS\n- Tiempo de lectura\n- Complejidad del texto\n- Densidad de información\n- Enlaces y referencias\n- Interactividad\n\n## 🔍 INSIGHTS\n- Contenido más popular\n- Patrones de uso\n- Gaps de información\n- Oportunidades de mejora\n- Recomendaciones\n\n## 🎯 CASOS DE USO\n- SEO y optimización\n- Estrategia de contenido\n- Análisis de competencia\n- Mejora de UX\n- Personalización\n\nProporciona análisis completo con insights accionables.",
+      "contexto": "Análisis de contenido de Notion"
+    }
+  ],
+  "configuracion": {
+    "api": "Notion API v1",
+    "autenticacion": "Bearer Token",
+    "formatos": "JSON, Markdown, HTML",
+    "lenguajes": "Python, JavaScript, Node.js"
+  }
+}
+
+
+
+
+
+

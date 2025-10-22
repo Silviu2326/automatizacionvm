@@ -1,0 +1,64 @@
+/**
+ * Configuración PWA para la aplicación móvil
+ */
+
+export const pwaConfig = {
+  name: 'Orquestador de Prompts',
+  short_name: 'Orquestador',
+  description: 'Aplicación para gestionar el orquestador de prompts desde dispositivos móviles',
+  theme_color: '#3b82f6',
+  background_color: '#ffffff',
+  display: 'standalone',
+  orientation: 'portrait',
+  start_url: '/',
+  scope: '/',
+  icons: [
+    {
+      src: '/icon-192x192.png',
+      sizes: '192x192',
+      type: 'image/png',
+      purpose: 'any'
+    },
+    {
+      src: '/icon-512x512.png',
+      sizes: '512x512',
+      type: 'image/png',
+      purpose: 'any'
+    },
+    {
+      src: '/icon-192x192-maskable.png',
+      sizes: '192x192',
+      type: 'image/png',
+      purpose: 'maskable'
+    }
+  ],
+  categories: ['productivity', 'utilities'],
+  screenshots: [
+    {
+      src: '/screenshot-mobile.png',
+      sizes: '390x844',
+      type: 'image/png',
+      form_factor: 'narrow'
+    }
+  ],
+  shortcuts: [
+    {
+      name: 'Dashboard',
+      short_name: 'Dashboard',
+      description: 'Ver el estado del orquestador',
+      url: '/#dashboard',
+      icons: [{ src: '/icon-192x192.png', sizes: '192x192' }]
+    },
+    {
+      name: 'Configuración',
+      short_name: 'Config',
+      description: 'Configurar el orquestador',
+      url: '/#config',
+      icons: [{ src: '/icon-192x192.png', sizes: '192x192' }]
+    }
+  ]
+};
+
+export default pwaConfig;
+
+

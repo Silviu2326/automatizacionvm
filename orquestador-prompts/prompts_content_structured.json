@@ -1,0 +1,18 @@
+{
+  "nombre": "Estructurador de Contenido",
+  "version": "1.0",
+  "descripcion": "Prompts para estructurar contenido en páginas de Notion",
+  "prompts": [
+    {
+      "id": "content_structure",
+      "nombre": "Estructura de Contenido",
+      "prompt": "Estructura el contenido de la página de Notion con:\n\n- Títulos y subtítulos jerárquicos\n- Párrafos bien formateados\n- Listas numeradas y con viñetas\n- Enlaces internos y externos\n- Imágenes y archivos adjuntos\n- Tablas organizadas\n- Bloques de código cuando sea necesario\n- Emojis para categorización\n- Separadores visuales\n\nAsegúrate de que el contenido sea claro, organizado y fácil de navegar.",
+      "contexto": "Estructuración de contenido en Notion"
+    }
+  ],
+  "configuracion": {
+    "plataforma": "Notion",
+    "formato": "Markdown/Notion Blocks",
+    "organizacion": "Jerarquía y navegación"
+  }
+}

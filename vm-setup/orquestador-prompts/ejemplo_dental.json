@@ -1,0 +1,29 @@
+{
+  "nombre": "Ejemplo Dental",
+  "descripcion": "Archivo de ejemplo para contenido dental",
+  "tipo": "notion_creator",
+  "contenido": {
+    "titulo": "Clínica Dental - Servicios",
+    "secciones": [
+      {
+        "titulo": "Servicios Principales",
+        "contenido": "Lista de servicios dentales ofrecidos por la clínica."
+      },
+      {
+        "titulo": "Horarios de Atención",
+        "contenido": "Horarios disponibles para citas médicas."
+      },
+      {
+        "titulo": "Contacto",
+        "contenido": "Información de contacto y ubicación."
+      }
+    ]
+  },
+  "configuracion": {
+    "tiempo_espera": 45,
+    "modo": "secuencial",
+    "reintentos": 2
+  }
+}
+
+

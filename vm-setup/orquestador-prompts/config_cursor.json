@@ -1,0 +1,25 @@
+{
+  "cursor_interface": {
+    "imagen_deteccion": "Captura de pantalla 2025-10-21 223727.png",
+    "coordenadas_click": {
+      "x": 0,
+      "y": 0
+    },
+    "area_busqueda": {
+      "x_inicio": 0,
+      "y_inicio": 0,
+      "x_fin": 1920,
+      "y_fin": 1080
+    },
+    "tiempo_espera_deteccion": 5,
+    "tiempo_espera_click": 1,
+    "tiempo_escritura": 0.1,
+    "usar_deteccion_imagen": true,
+    "tolerancia_imagen": 0.7
+  },
+  "configuracion_prompts": {
+    "prefijo": " ",
+    "sufijo": "",
+    "formato": "texto_plano"
+  }
+}

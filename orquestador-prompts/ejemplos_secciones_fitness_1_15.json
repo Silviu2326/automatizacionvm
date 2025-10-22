@@ -1,0 +1,101 @@
+{
+  "ejemplos": [
+    {
+      "paginaacrear": "CRM & Gestión de Clientes",
+      "paginaprincipal": "https://www.notion.so/secciones-29206f76bed480bfa68ced935ec00c1e",
+      "detalles": "Crear una página de documentación para la sección de CRM & Gestión de Clientes. Incluir captura de leads, pipeline & Kanban, fichas 360º, segmentación dinámica, mensajería omnicanal y encuestas NPS/CSAT. Documentar flujos de leads, matrices de segmentación, configuraciones de mensajería, componentes React previstos, APIs de CRM y estructura MERN. Esta sección tendrá subpáginas que se desarrollarán posteriormente.",
+      "id": 1
+    },
+    {
+      "paginaacrear": "Entrenamiento & Programación Deportiva",
+      "paginaprincipal": "https://www.notion.so/secciones-29206f76bed480bfa68ced935ec00c1e",
+      "detalles": "Crear una página de documentación para la sección de Entrenamiento & Programación Deportiva. Incluir creador de rutinas, biblioteca de ejercicios, motor de fórmulas, asignación a cliente/grupo y check-ins por set. Documentar flujos de programación, matrices de ejercicios, configuraciones de fórmulas, componentes React previstos, APIs de entrenamiento y estructura MERN. Esta sección tendrá subpáginas que se desarrollarán posteriormente.",
+      "id": 2
+    },
+    {
+      "paginaacrear": "Nutrición & Dietas",
+      "paginaprincipal": "https://www.notion.so/secciones-29206f76bed480bfa68ced935ec00c1e",
+      "detalles": "Crear una página de documentación para la sección de Nutrición & Dietas. Incluir planner de comidas, preferencias/restricciones, recetario con sustituciones, seguimiento de adherencia e integración wearables. Documentar flujos de planificación nutricional, matrices de macros/micros, configuraciones de preferencias, componentes React previstos, APIs de nutrición y estructura MERN. Esta sección tendrá subpáginas que se desarrollarán posteriormente.",
+      "id": 3
+    },
+    {
+      "paginaacrear": "Calendario, Citas & Reservas",
+      "paginaprincipal": "https://www.notion.so/secciones-29206f76bed480bfa68ced935ec00c1e",
+      "detalles": "Crear una página de documentación para la sección de Calendario, Citas & Reservas. Incluir agenda unificada, reservas online, recursos/salas, turnos/disponibilidad y recordatorios automáticos. Documentar flujos de reserva, matrices de disponibilidad, configuraciones de recursos, componentes React previstos, APIs de calendario y estructura MERN. Esta sección tendrá subpáginas que se desarrollarán posteriormente.",
+      "id": 4
+    },
+    {
+      "paginaacrear": "Membresías, Bonos & Servicios",
+      "paginaprincipal": "https://www.notion.so/secciones-29206f76bed480bfa68ced935ec00c1e",
+      "detalles": "Crear una página de documentación para la sección de Membresías, Bonos & Servicios (GYM). Incluir planes/cuotas, bonos de sesiones, servicios/tarifas y portal del cliente. Documentar flujos de membresía, matrices de planes, configuraciones de bonos, componentes React previstos, APIs de membresías y estructura MERN. Esta sección tendrá subpáginas que se desarrollarán posteriormente.",
+      "id": 5
+    },
+    {
+      "paginaacrear": "Ventas, POS & Ecommerce",
+      "paginaprincipal": "https://www.notion.so/secciones-29206f76bed480bfa68ced935ec00c1e",
+      "detalles": "Crear una página de documentación para la sección de Ventas, POS & Ecommerce (GYM). Incluir tienda de suplementos/material, POS, inventario, promos/cupones/packs e integraciones TPV. Documentar flujos de venta, matrices de inventario, configuraciones de POS, componentes React previstos, APIs de ecommerce y estructura MERN. Esta sección tendrá subpáginas que se desarrollarán posteriormente.",
+      "id": 6
+    },
+    {
+      "paginaacrear": "Marketing & Crecimiento",
+      "paginaprincipal": "https://www.notion.so/secciones-29206f76bed480bfa68ced935ec00c1e",
+      "detalles": "Crear una página de documentación para la sección de Marketing & Crecimiento. Incluir librería de campañas, email marketing, WhatsApp/SMS marketing, planner de redes sociales y referidos/afiliados. Documentar flujos de campañas, matrices de marketing, configuraciones de canales, componentes React previstos, APIs de marketing y estructura MERN. Esta sección tendrá subpáginas que se desarrollarán posteriormente.",
+      "id": 7
+    },
+    {
+      "paginaacrear": "Finanzas & Administración",
+      "paginaprincipal": "https://www.notion.so/secciones-29206f76bed480bfa68ced935ec00c1e",
+      "detalles": "Crear una página de documentación para la sección de Finanzas & Administración. Incluir facturación y recibos, pagos recurrentes, cashflow/MRR/ARR, gastos/proveedores y liquidaciones a entrenadores. Documentar flujos de facturación, matrices financieras, configuraciones de pagos, componentes React previstos, APIs de finanzas y estructura MERN. Esta sección tendrá subpáginas que se desarrollarán posteriormente.",
+      "id": 8
+    },
+    {
+      "paginaacrear": "Operaciones, HR & Centro",
+      "paginaprincipal": "https://www.notion.so/secciones-29206f76bed480bfa68ced935ec00c1e",
+      "detalles": "Crear una página de documentación para la sección de Operaciones, HR & Centro (GYM). Incluir turnos/horarios del staff, capacidad y aforo, mantenimiento de equipos y gestión de instalaciones. Documentar flujos operativos, matrices de recursos, configuraciones de turnos, componentes React previstos, APIs de operaciones y estructura MERN. Esta sección tendrá subpáginas que se desarrollarán posteriormente.",
+      "id": 9
+    },
+    {
+      "paginaacrear": "Experiencia del Cliente (App/Web)",
+      "paginaprincipal": "https://www.notion.so/secciones-29206f76bed480bfa68ced935ec00c1e",
+      "detalles": "Crear una página de documentación para la sección de Experiencia del Cliente (App/Web). Incluir app del cliente, progreso, comunidad y chat, retos y gamificación. Documentar flujos de usuario, matrices de experiencia, configuraciones de app, componentes React previstos, APIs de cliente y estructura MERN. Esta sección tendrá subpáginas que se desarrollarán posteriormente.",
+      "id": 10
+    },
+    {
+      "paginaacrear": "IA & Automatizaciones",
+      "paginaprincipal": "https://www.notion.so/secciones-29206f76bed480bfa68ced935ec00c1e",
+      "detalles": "Crear una página de documentación para la sección de IA & Automatizaciones. Incluir asistente de programación, ajuste dinámico, bot de coaching, predictor de churn y orquestador de tareas. Documentar flujos de IA, matrices de automatización, configuraciones de algoritmos, componentes React previstos, APIs de IA y estructura MERN. Esta sección tendrá subpáginas que se desarrollarán posteriormente.",
+      "id": 12
+    },
+    {
+      "paginaacrear": "Integraciones & Ecosistema",
+      "paginaprincipal": "https://www.notion.so/secciones-29206f76bed480bfa68ced935ec00c1e",
+      "detalles": "Crear una página de documentación para la sección de Integraciones & Ecosistema. Incluir pagos (Stripe/Connect), comunicaciones (Twilio/WhatsApp), calendarios (Google/Apple/Outlook), wearables y API/Webhooks. Documentar flujos de integración, matrices de conectores, configuraciones de APIs, componentes React previstos, endpoints de integración y estructura MERN. Esta sección tendrá subpáginas que se desarrollarán posteriormente.",
+      "id": 13
+    },
+    {
+      "paginaacrear": "Configuración & Personalización",
+      "paginaprincipal": "https://www.notion.so/secciones-29206f76bed480bfa68ced935ec00c1e",
+      "detalles": "Crear una página de documentación para la sección de Configuración & Personalización. Incluir catálogos (servicios, planes, clases, políticas), plantillas (emails, contratos, rutinas, dietas), idiomas/monedas/unidades e importadores CSV/Excel. Documentar flujos de configuración, matrices de personalización, configuraciones de catálogos, componentes React previstos, APIs de configuración y estructura MERN. Esta sección tendrá subpáginas que se desarrollarán posteriormente.",
+      "id": 15
+    }
+  ],
+  "configuracion": {
+    "total_ejemplos": 13,
+    "categorias": [
+      "CRM & Gestión de Clientes",
+      "Entrenamiento & Programación Deportiva", 
+      "Nutrición & Dietas",
+      "Calendario, Citas & Reservas",
+      "Membresías, Bonos & Servicios",
+      "Ventas, POS & Ecommerce",
+      "Marketing & Crecimiento",
+      "Finanzas & Administración",
+      "Operaciones, HR & Centro",
+      "Experiencia del Cliente (App/Web)",
+      "IA & Automatizaciones",
+      "Integraciones & Ecosistema",
+      "Configuración & Personalización"
+    ],
+    "uso": "Secciones principales del sistema Fitness/Gym (IDs 1-15) - Las primeras 15 secciones del sistema con subpáginas que se desarrollarán posteriormente"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "modulos": [
+    {
+      "modulo": "UserProfile",
+      "archivo_md": "user-profile-guide.md"
+    },
+    {
+      "modulo": "ProductCatalog",
+      "archivo_md": "product-catalog-spec.md"
+    },
+    {
+      "modulo": "OrderManagement",
+      "archivo_md": "order-management-flow.md"
+    },
+    {
+      "modulo": "PaymentGateway",
+      "archivo_md": "payment-integration-guide.md"
+    },
+    {
+      "modulo": "NotificationSystem",
+      "archivo_md": "notification-service-docs.md"
+    }
+  ],
+  "configuracion": {
+    "tiempo_espera": 30,
+    "modo": "secuencial",
+    "reintentos": 2
+  },
+  "descripcion": "Archivo con 5 módulos diferentes para el modo MD → Módulo"
+}
+
+

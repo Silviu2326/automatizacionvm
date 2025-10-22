@@ -1,0 +1,29 @@
+{
+  "modos": {
+    "md_modulo": {
+      "prompt_file": "prompts_md_modulo.json",
+      "descripcion": "Convierte Markdown a módulos de React",
+      "ejemplo": "ejemplo_md_modulo_simple.json",
+      "campos_requeridos": ["modulo", "archivo_md"]
+    },
+    "json_notion": {
+      "prompt_file": "prompts_json_notion.json",
+      "descripcion": "Convierte JSON a páginas de Notion",
+      "ejemplo": "ejemplo_json_notion_simple.json",
+      "campos_requeridos": ["archivo_json", "plantilla"]
+    },
+    "api_generator": {
+      "prompt_file": "prompts_api_generator.json",
+      "descripcion": "Genera APIs REST completas",
+      "ejemplo": "ejemplo_api_generator_simple.json",
+      "campos_requeridos": ["entidad", "esquema"]
+    }
+  },
+  "configuracion_global": {
+    "tiempo_espera_default": 30,
+    "reintentos_default": 2,
+    "formato_salida_default": "archivo_estructurado"
+  }
+}
+
+

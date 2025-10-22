@@ -1,0 +1,16 @@
+{
+  "isRunning": true,
+  "currentStep": 1,
+  "totalSteps": 5,
+  "currentModule": "UserProfile",
+  "status": "running",
+  "logs": [
+    "[15:49:21] Procesando módulo 1: UserProfile (Tiempo restante: 3000s)",
+    "[15:49:28] Escribiendo prompt para Módulo 1: UserProfile",
+    "[15:49:29] Enviando prompt (presionando Enter)",
+    "[15:49:30] Esperando 600s para procesamiento..."
+  ],
+  "startTime": null,
+  "estimatedTime": 3000,
+  "lastUpdate": 1761140961.0958056
+}

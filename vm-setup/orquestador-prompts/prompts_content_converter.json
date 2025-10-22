@@ -1,0 +1,37 @@
+{
+  "nombre": "Convertidor de Contenido",
+  "version": "1.0",
+  "descripcion": "Prompts para convertir contenido de Notion a diferentes formatos",
+  "prompts": [
+    {
+      "id": "markdown_conversion",
+      "nombre": "Conversión a Markdown",
+      "prompt": "Convierte contenido de Notion a Markdown estructurado:\n\n## 📝 CONVERSIÓN MARKDOWN\n- Headers y jerarquía\n- Listas y tablas\n- Enlaces y referencias\n- Imágenes y archivos\n- Código y bloques\n\n## 🎨 FORMATO AVANZADO\n- Tablas con alineación\n- Listas anidadas\n- Citas y notas\n- Emojis y símbolos\n- Metadatos YAML\n\n## 🔗 ENLACES Y REFERENCIAS\n- Enlaces internos\n- Enlaces externos\n- Referencias de archivos\n- Anclas y IDs\n- Breadcrumbs\n\n## 📊 CONTENIDO ESPECIAL\n- Diagramas Mermaid\n- Fórmulas matemáticas\n- Tablas de datos\n- Código syntax highlighting\n- Embeds y widgets\n\n## 🎯 OPTIMIZACIÓN\n- SEO friendly\n- Estructura semántica\n- Accesibilidad\n- Performance\n- Compatibilidad\n\nProporciona Markdown limpio y bien estructurado.",
+      "contexto": "Conversión a Markdown"
+    },
+    {
+      "id": "documentation_generation",
+      "nombre": "Generación de Documentación",
+      "prompt": "Genera documentación técnica desde Notion:\n\n## 📚 TIPOS DE DOCUMENTACIÓN\n- Manuales de usuario\n- Documentación técnica\n- API documentation\n- Guías de instalación\n- Tutoriales paso a paso\n\n## 🎨 FORMATOS\n- GitBook\n- Docusaurus\n- MkDocs\n- Sphinx\n- JSDoc\n\n## 📋 ESTRUCTURA\n- Índice automático\n- Navegación\n- Búsqueda\n- Referencias cruzadas\n- Versionado\n\n## 🔧 HERRAMIENTAS\n- Generadores de sitios\n- Plugins y extensiones\n- Temas y personalización\n- Integración CI/CD\n- Deployment automático\n\n## 🎯 CASOS DE USO\n- Documentación de APIs\n- Manuales de software\n- Guías de usuario\n- Wikis corporativos\n- Bases de conocimiento\n\nIncluye configuración completa de herramientas de documentación.",
+      "contexto": "Generación de documentación"
+    },
+    {
+      "id": "cms_integration",
+      "nombre": "Integración con CMS",
+      "prompt": "Integra contenido de Notion con sistemas CMS:\n\n## 🔌 CMS HEADLESS\n- Strapi\n- Contentful\n- Sanity\n- Ghost\n- WordPress (Headless)\n\n## 📡 INTEGRACIÓN\n- APIs REST\n- GraphQL\n- Webhooks\n- Sincronización\n- Mapeo de datos\n\n## 🔄 WORKFLOWS\n- Importación automática\n- Sincronización bidireccional\n- Transformación de datos\n- Validación de contenido\n- Versionado\n\n## 📊 CONTENIDO\n- Artículos y posts\n- Páginas estáticas\n- Medios y archivos\n- Metadatos\n- SEO optimization\n\n## 🎯 CASOS DE USO\n- Blogs corporativos\n- Sitios de marketing\n- E-commerce\n- Portales de noticias\n- Sitios de documentación\n\nProporciona integración completa con diferentes CMS.",
+      "contexto": "Integración con CMS"
+    }
+  ],
+  "configuracion": {
+    "formatos": "Markdown, HTML, JSON, XML",
+    "cms": "Strapi, Contentful, Sanity",
+    "documentacion": "GitBook, Docusaurus, MkDocs",
+    "integracion": "APIs, Webhooks, GraphQL"
+  }
+}
+
+
+
+
+
+

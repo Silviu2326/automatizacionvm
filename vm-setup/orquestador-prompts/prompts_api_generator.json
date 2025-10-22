@@ -1,0 +1,12 @@
+{
+  "prompt": "Genera una API REST completa para ({{entidad}}) basada en el esquema ({{esquema}})",
+  "descripcion": "Prompt para generar APIs REST",
+  "tipo": "api_generator",
+  "configuracion": {
+    "tiempo_espera": 60,
+    "reintentos": 2,
+    "formato_salida": "api_rest"
+  }
+}
+
+

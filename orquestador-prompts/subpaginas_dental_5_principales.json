@@ -1,0 +1,941 @@
+{
+  "ejemplos": [
+    {
+      "id": 1,
+      "paginaacrear": "Operación diaria (Front Desk & Agenda)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Operación diaria (Front Desk & Agenda) del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: agenda inteligente (por profesional/sillón/centro, listas de espera, overbooking controlado, huecos sugeridos), recepción & check-in (kiosko/tablet, firma de consentimientos, cobro rápido), recordatorios & confirmaciones (SMS/WhatsApp/email, reprogramaciones, no-shows), planificación de recursos (sillones, salas, equipo RX, duración por procedimiento), contact center (CTI/telefonía, pop-ups con ficha paciente, click-to-call) y gestión de roles (Recepción, Coordinador, Gerencia). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de operación diaria, matrices de recursos, configuraciones de agenda y documentación de procesos de la sección.",
+      "subpaginas": [
+        {
+          "id": "1.1",
+          "nombre": "Agenda Inteligente",
+          "ruta": "/operacion-diaria/agenda-inteligente",
+          "descripcion": "Sistema de agenda inteligente por profesional/sillón/centro con listas de espera, overbooking controlado y huecos sugeridos",
+          "componentes_react": [
+            "AgendaCalendar",
+            "ProfesionalSelector", 
+            "SillonManager",
+            "ListaEspera",
+            "OverbookingControl",
+            "HuecosSugeridos"
+          ],
+          "apis_requeridas": [
+            "GET /api/agenda/profesionales",
+            "GET /api/agenda/sillones",
+            "POST /api/agenda/citas",
+            "PUT /api/agenda/citas/:id",
+            "DELETE /api/agenda/citas/:id",
+            "GET /api/agenda/lista-espera",
+            "GET /api/agenda/huecos-sugeridos"
+          ],
+          "estructura_carpetas": {
+            "page": "operacion-diaria/agenda-inteligente/page.tsx",
+            "api": "operacion-diaria/agenda-inteligente/api/",
+            "components": "operacion-diaria/agenda-inteligente/components/"
+          },
+          "funcionalidades": [
+            "Visualización de agenda por profesional",
+            "Gestión de sillones y centros",
+            "Control de listas de espera",
+            "Detección de overbooking",
+            "Sugerencias automáticas de huecos"
+          ]
+        },
+        {
+          "id": "1.2",
+          "nombre": "Recepción & Check-in",
+          "ruta": "/operacion-diaria/recepcion-checkin",
+          "descripcion": "Sistema de recepción con kiosko/tablet, firma de consentimientos y cobro rápido",
+          "componentes_react": [
+            "KioskoTablet",
+            "FirmaConsentimientos",
+            "CobroRapido",
+            "CheckInPaciente",
+            "ValidacionDocumentos"
+          ],
+          "apis_requeridas": [
+            "POST /api/recepcion/checkin",
+            "POST /api/recepcion/consentimientos",
+            "POST /api/recepcion/cobro",
+            "GET /api/recepcion/paciente/:id",
+            "PUT /api/recepcion/estado/:id"
+          ],
+          "estructura_carpetas": {
+            "page": "operacion-diaria/recepcion-checkin/page.tsx",
+            "api": "operacion-diaria/recepcion-checkin/api/",
+            "components": "operacion-diaria/recepcion-checkin/components/"
+          },
+          "funcionalidades": [
+            "Check-in automático por kiosko",
+            "Firma digital de consentimientos",
+            "Procesamiento de pagos rápidos",
+            "Validación de documentos",
+            "Gestión de estados de paciente"
+          ]
+        },
+        {
+          "id": "1.3",
+          "nombre": "Recordatorios & Confirmaciones",
+          "ruta": "/operacion-diaria/recordatorios-confirmaciones",
+          "descripcion": "Sistema de recordatorios por SMS/WhatsApp/email, reprogramaciones y control de no-shows",
+          "componentes_react": [
+            "RecordatoriosManager",
+            "ConfirmacionesAutomaticas",
+            "Reprogramaciones",
+            "NoShowsControl",
+            "ComunicacionesMultiCanal"
+          ],
+          "apis_requeridas": [
+            "POST /api/recordatorios/enviar",
+            "GET /api/recordatorios/historial",
+            "POST /api/recordatorios/reprogramar",
+            "GET /api/recordatorios/no-shows",
+            "PUT /api/recordatorios/estado/:id"
+          ],
+          "estructura_carpetas": {
+            "page": "operacion-diaria/recordatorios-confirmaciones/page.tsx",
+            "api": "operacion-diaria/recordatorios-confirmaciones/api/",
+            "components": "operacion-diaria/recordatorios-confirmaciones/components/"
+          },
+          "funcionalidades": [
+            "Envío automático de recordatorios",
+            "Confirmaciones por múltiples canales",
+            "Gestión de reprogramaciones",
+            "Control y seguimiento de no-shows",
+            "Plantillas personalizables"
+          ]
+        },
+        {
+          "id": "1.4",
+          "nombre": "Planificación de Recursos",
+          "ruta": "/operacion-diaria/planificacion-recursos",
+          "descripcion": "Gestión de sillones, salas, equipo RX y duración por procedimiento",
+          "componentes_react": [
+            "RecursosManager",
+            "SillonesScheduler",
+            "SalasManager",
+            "EquipoRXControl",
+            "DuracionProcedimientos"
+          ],
+          "apis_requeridas": [
+            "GET /api/recursos/sillones",
+            "GET /api/recursos/salas",
+            "GET /api/recursos/equipo-rx",
+            "POST /api/recursos/asignar",
+            "PUT /api/recursos/duracion/:id"
+          ],
+          "estructura_carpetas": {
+            "page": "operacion-diaria/planificacion-recursos/page.tsx",
+            "api": "operacion-diaria/planificacion-recursos/api/",
+            "components": "operacion-diaria/planificacion-recursos/components/"
+          },
+          "funcionalidades": [
+            "Gestión de sillones y salas",
+            "Control de equipo RX",
+            "Configuración de duraciones",
+            "Asignación automática de recursos",
+            "Optimización de horarios"
+          ]
+        },
+        {
+          "id": "1.5",
+          "nombre": "Contact Center",
+          "ruta": "/operacion-diaria/contact-center",
+          "descripcion": "Sistema CTI/telefonía con pop-ups de ficha paciente y click-to-call",
+          "componentes_react": [
+            "ContactCenterDashboard",
+            "CTITelefonia",
+            "FichaPacientePopup",
+            "ClickToCall",
+            "HistorialLlamadas"
+          ],
+          "apis_requeridas": [
+            "GET /api/contact-center/llamadas",
+            "POST /api/contact-center/llamar",
+            "GET /api/contact-center/paciente/:id",
+            "POST /api/contact-center/registrar",
+            "GET /api/contact-center/historial"
+          ],
+          "estructura_carpetas": {
+            "page": "operacion-diaria/contact-center/page.tsx",
+            "api": "operacion-diaria/contact-center/api/",
+            "components": "operacion-diaria/contact-center/components/"
+          },
+          "funcionalidades": [
+            "Integración CTI/telefonía",
+            "Pop-ups automáticos de ficha",
+            "Click-to-call integrado",
+            "Registro de llamadas",
+            "Historial completo de comunicaciones"
+          ]
+        },
+        {
+          "id": "1.6",
+          "nombre": "Gestión de Roles",
+          "ruta": "/operacion-diaria/gestion-roles",
+          "descripcion": "Gestión de roles para Recepción, Coordinador y Gerencia",
+          "componentes_react": [
+            "RolesManager",
+            "PermisosConfig",
+            "UsuariosAsignacion",
+            "AccesosControl",
+            "AuditoriaRoles"
+          ],
+          "apis_requeridas": [
+            "GET /api/roles/lista",
+            "POST /api/roles/crear",
+            "PUT /api/roles/:id",
+            "DELETE /api/roles/:id",
+            "GET /api/roles/permisos",
+            "POST /api/roles/asignar"
+          ],
+          "estructura_carpetas": {
+            "page": "operacion-diaria/gestion-roles/page.tsx",
+            "api": "operacion-diaria/gestion-roles/api/",
+            "components": "operacion-diaria/gestion-roles/components/"
+          },
+          "funcionalidades": [
+            "Gestión de roles y permisos",
+            "Asignación de usuarios",
+            "Control de accesos",
+            "Auditoría de cambios",
+            "Configuración granular de permisos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paginaacrear": "Paciente 360 (CRM clínico)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Paciente 360 (CRM clínico) del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: ficha maestra (datos, alertas, alergias, hábitos, seguros), documentos & firmas (consentimientos RGPD/específicos, recetas, adjuntos), timeline clínico-económico (actos, presupuestos, pagos, comunicaciones), tareas & seguimiento (recordatorios internos, tareas por profesional) y gestión de roles (Todos con permisos según RBAC). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo del CRM clínico, matrices de permisos, configuraciones de ficha paciente y documentación de procesos de la sección.",
+      "subpaginas": [
+        {
+          "id": "2.1",
+          "nombre": "Ficha Maestra",
+          "ruta": "/paciente-360/ficha-maestra",
+          "descripcion": "Ficha completa del paciente con datos, alertas, alergias, hábitos y seguros",
+          "componentes_react": [
+            "FichaPaciente",
+            "DatosPersonales",
+            "AlertasClinicas",
+            "AlergiasManager",
+            "HabitosPaciente",
+            "SegurosInfo"
+          ],
+          "apis_requeridas": [
+            "GET /api/paciente/:id",
+            "PUT /api/paciente/:id",
+            "GET /api/paciente/:id/alertas",
+            "POST /api/paciente/:id/alergias",
+            "GET /api/paciente/:id/seguros"
+          ],
+          "estructura_carpetas": {
+            "page": "paciente-360/ficha-maestra/page.tsx",
+            "api": "paciente-360/ficha-maestra/api/",
+            "components": "paciente-360/ficha-maestra/components/"
+          },
+          "funcionalidades": [
+            "Visualización completa de ficha",
+            "Gestión de datos personales",
+            "Control de alertas clínicas",
+            "Registro de alergias",
+            "Seguimiento de hábitos",
+            "Información de seguros"
+          ]
+        },
+        {
+          "id": "2.2",
+          "nombre": "Documentos & Firmas",
+          "ruta": "/paciente-360/documentos-firmas",
+          "descripcion": "Gestión de consentimientos RGPD/específicos, recetas y adjuntos",
+          "componentes_react": [
+            "DocumentosManager",
+            "ConsentimientosRGPD",
+            "RecetasDigitales",
+            "AdjuntosManager",
+            "FirmasDigitales"
+          ],
+          "apis_requeridas": [
+            "GET /api/paciente/:id/documentos",
+            "POST /api/paciente/:id/documentos",
+            "POST /api/paciente/:id/consentimientos",
+            "GET /api/paciente/:id/recetas",
+            "POST /api/paciente/:id/firmar"
+          ],
+          "estructura_carpetas": {
+            "page": "paciente-360/documentos-firmas/page.tsx",
+            "api": "paciente-360/documentos-firmas/api/",
+            "components": "paciente-360/documentos-firmas/components/"
+          },
+          "funcionalidades": [
+            "Gestión de documentos",
+            "Consentimientos RGPD",
+            "Recetas digitales",
+            "Adjuntos y archivos",
+            "Firmas digitales"
+          ]
+        },
+        {
+          "id": "2.3",
+          "nombre": "Timeline Clínico-Económico",
+          "ruta": "/paciente-360/timeline-clinico-economico",
+          "descripcion": "Timeline completo con actos, presupuestos, pagos y comunicaciones",
+          "componentes_react": [
+            "TimelineViewer",
+            "ActosClinicos",
+            "PresupuestosHistorial",
+            "PagosSeguimiento",
+            "ComunicacionesTimeline"
+          ],
+          "apis_requeridas": [
+            "GET /api/paciente/:id/timeline",
+            "GET /api/paciente/:id/actos",
+            "GET /api/paciente/:id/presupuestos",
+            "GET /api/paciente/:id/pagos",
+            "GET /api/paciente/:id/comunicaciones"
+          ],
+          "estructura_carpetas": {
+            "page": "paciente-360/timeline-clinico-economico/page.tsx",
+            "api": "paciente-360/timeline-clinico-economico/api/",
+            "components": "paciente-360/timeline-clinico-economico/components/"
+          },
+          "funcionalidades": [
+            "Visualización de timeline",
+            "Historial de actos clínicos",
+            "Seguimiento de presupuestos",
+            "Control de pagos",
+            "Registro de comunicaciones"
+          ]
+        },
+        {
+          "id": "2.4",
+          "nombre": "Tareas & Seguimiento",
+          "ruta": "/paciente-360/tareas-seguimiento",
+          "descripcion": "Gestión de recordatorios internos y tareas por profesional",
+          "componentes_react": [
+            "TareasManager",
+            "RecordatoriosInternos",
+            "TareasPorProfesional",
+            "SeguimientoTareas",
+            "NotificacionesTareas"
+          ],
+          "apis_requeridas": [
+            "GET /api/paciente/:id/tareas",
+            "POST /api/paciente/:id/tareas",
+            "PUT /api/paciente/:id/tareas/:tareaId",
+            "GET /api/paciente/:id/recordatorios",
+            "POST /api/paciente/:id/recordatorios"
+          ],
+          "estructura_carpetas": {
+            "page": "paciente-360/tareas-seguimiento/page.tsx",
+            "api": "paciente-360/tareas-seguimiento/api/",
+            "components": "paciente-360/tareas-seguimiento/components/"
+          },
+          "funcionalidades": [
+            "Gestión de tareas",
+            "Recordatorios internos",
+            "Asignación por profesional",
+            "Seguimiento de estado",
+            "Notificaciones automáticas"
+          ]
+        },
+        {
+          "id": "2.5",
+          "nombre": "Gestión de Roles CRM",
+          "ruta": "/paciente-360/gestion-roles-crm",
+          "descripcion": "Gestión de roles con permisos según RBAC para todos los usuarios",
+          "componentes_react": [
+            "RolesCRMManager",
+            "PermisosRBAC",
+            "UsuariosAsignacionCRM",
+            "AccesosDatosPaciente",
+            "AuditoriaCRM"
+          ],
+          "apis_requeridas": [
+            "GET /api/crm/roles",
+            "POST /api/crm/roles",
+            "GET /api/crm/permisos",
+            "POST /api/crm/permisos/asignar",
+            "GET /api/crm/auditoria"
+          ],
+          "estructura_carpetas": {
+            "page": "paciente-360/gestion-roles-crm/page.tsx",
+            "api": "paciente-360/gestion-roles-crm/api/",
+            "components": "paciente-360/gestion-roles-crm/components/"
+          },
+          "funcionalidades": [
+            "Gestión de roles CRM",
+            "Permisos RBAC",
+            "Asignación de usuarios",
+            "Control de acceso a datos",
+            "Auditoría de accesos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paginaacrear": "Historia Clínica & Especialidades",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Historia Clínica & Especialidades del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: HC estructurada (SOAP, plantillas por especialidad, dictado por voz), odontograma 2D/3D (por pieza/superficie, evolución, alertas), periodontograma (bolsas, sangrado, movilidad, placa; comparativas), especialidades (odontología general, ortodoncia, implantología & cirugía, endodoncia, periodoncia, prótesis, odontopediatría, estética, oclusión & ATM, sueño), alertas clínicas & contraindicaciones y gestión de roles (Dentistas, Higienistas, Auxiliares). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de historia clínica, matrices de especialidades, configuraciones de odontograma y documentación de procesos de la sección.",
+      "subpaginas": [
+        {
+          "id": "3.1",
+          "nombre": "HC Estructurada",
+          "ruta": "/historia-clinica/hc-estructurada",
+          "descripcion": "Historia clínica estructurada con SOAP, plantillas por especialidad y dictado por voz",
+          "componentes_react": [
+            "HCEstructurada",
+            "PlantillasSOAP",
+            "PlantillasEspecialidad",
+            "DictadoVoz",
+            "EditorHC"
+          ],
+          "apis_requeridas": [
+            "GET /api/hc/plantillas",
+            "POST /api/hc/registro",
+            "GET /api/hc/:id",
+            "PUT /api/hc/:id",
+            "POST /api/hc/dictado"
+          ],
+          "estructura_carpetas": {
+            "page": "historia-clinica/hc-estructurada/page.tsx",
+            "api": "historia-clinica/hc-estructurada/api/",
+            "components": "historia-clinica/hc-estructurada/components/"
+          },
+          "funcionalidades": [
+            "Estructura SOAP",
+            "Plantillas por especialidad",
+            "Dictado por voz",
+            "Editor de HC",
+            "Validación de datos"
+          ]
+        },
+        {
+          "id": "3.2",
+          "nombre": "Odontograma 2D/3D",
+          "ruta": "/historia-clinica/odontograma",
+          "descripcion": "Odontograma 2D/3D por pieza/superficie con evolución y alertas",
+          "componentes_react": [
+            "Odontograma2D",
+            "Odontograma3D",
+            "PiezasDentales",
+            "SuperficiesDentales",
+            "EvolucionOdontograma",
+            "AlertasOdontograma"
+          ],
+          "apis_requeridas": [
+            "GET /api/odontograma/:pacienteId",
+            "POST /api/odontograma/registro",
+            "PUT /api/odontograma/:id",
+            "GET /api/odontograma/evolucion/:pacienteId",
+            "GET /api/odontograma/alertas/:pacienteId"
+          ],
+          "estructura_carpetas": {
+            "page": "historia-clinica/odontograma/page.tsx",
+            "api": "historia-clinica/odontograma/api/",
+            "components": "historia-clinica/odontograma/components/"
+          },
+          "funcionalidades": [
+            "Visualización 2D/3D",
+            "Gestión por pieza/superficie",
+            "Seguimiento de evolución",
+            "Sistema de alertas",
+            "Comparativas temporales"
+          ]
+        },
+        {
+          "id": "3.3",
+          "nombre": "Periodontograma",
+          "ruta": "/historia-clinica/periodontograma",
+          "descripcion": "Periodontograma con bolsas, sangrado, movilidad, placa y comparativas",
+          "componentes_react": [
+            "PeriodontogramaViewer",
+            "BolsasPeriodontales",
+            "SangradoGingival",
+            "MovilidadDental",
+            "PlacaBacteriana",
+            "ComparativasPeriodontales"
+          ],
+          "apis_requeridas": [
+            "GET /api/periodontograma/:pacienteId",
+            "POST /api/periodontograma/registro",
+            "PUT /api/periodontograma/:id",
+            "GET /api/periodontograma/comparativas/:pacienteId",
+            "GET /api/periodontograma/evolucion/:pacienteId"
+          ],
+          "estructura_carpetas": {
+            "page": "historia-clinica/periodontograma/page.tsx",
+            "api": "historia-clinica/periodontograma/api/",
+            "components": "historia-clinica/periodontograma/components/"
+          },
+          "funcionalidades": [
+            "Registro de bolsas",
+            "Control de sangrado",
+            "Medición de movilidad",
+            "Seguimiento de placa",
+            "Comparativas temporales"
+          ]
+        },
+        {
+          "id": "3.4",
+          "nombre": "Especialidades",
+          "ruta": "/historia-clinica/especialidades",
+          "descripcion": "Gestión de especialidades: odontología general, ortodoncia, implantología, endodoncia, periodoncia, prótesis, odontopediatría, estética, oclusión & ATM, sueño",
+          "componentes_react": [
+            "EspecialidadesManager",
+            "OdontologiaGeneral",
+            "Ortodoncia",
+            "Implantologia",
+            "Endodoncia",
+            "Periodoncia",
+            "Protesis",
+            "Odontopediatria",
+            "Estetica",
+            "OclusionATM",
+            "Sueño"
+          ],
+          "apis_requeridas": [
+            "GET /api/especialidades/lista",
+            "GET /api/especialidades/:especialidad",
+            "POST /api/especialidades/registro",
+            "PUT /api/especialidades/:id",
+            "GET /api/especialidades/plantillas/:especialidad"
+          ],
+          "estructura_carpetas": {
+            "page": "historia-clinica/especialidades/page.tsx",
+            "api": "historia-clinica/especialidades/api/",
+            "components": "historia-clinica/especialidades/components/"
+          },
+          "funcionalidades": [
+            "Gestión de especialidades",
+            "Plantillas específicas",
+            "Protocolos por especialidad",
+            "Seguimiento especializado",
+            "Integración multiespecialidad"
+          ]
+        },
+        {
+          "id": "3.5",
+          "nombre": "Alertas Clínicas & Contraindicaciones",
+          "ruta": "/historia-clinica/alertas-contraindicaciones",
+          "descripcion": "Sistema de alertas clínicas y contraindicaciones para tratamientos",
+          "componentes_react": [
+            "AlertasClinicas",
+            "Contraindicaciones",
+            "InteraccionesMedicamentosas",
+            "AlertasAlergias",
+            "SistemaAlertas"
+          ],
+          "apis_requeridas": [
+            "GET /api/alertas/:pacienteId",
+            "POST /api/alertas/crear",
+            "GET /api/contraindicaciones/:pacienteId",
+            "POST /api/contraindicaciones/registrar",
+            "GET /api/interacciones/medicamentos"
+          ],
+          "estructura_carpetas": {
+            "page": "historia-clinica/alertas-contraindicaciones/page.tsx",
+            "api": "historia-clinica/alertas-contraindicaciones/api/",
+            "components": "historia-clinica/alertas-contraindicaciones/components/"
+          },
+          "funcionalidades": [
+            "Sistema de alertas",
+            "Contraindicaciones automáticas",
+            "Interacciones medicamentosas",
+            "Alertas de alergias",
+            "Notificaciones en tiempo real"
+          ]
+        },
+        {
+          "id": "3.6",
+          "nombre": "Gestión de Roles HC",
+          "ruta": "/historia-clinica/gestion-roles-hc",
+          "descripcion": "Gestión de roles para Dentistas, Higienistas y Auxiliares",
+          "componentes_react": [
+            "RolesHCManager",
+            "PermisosDentistas",
+            "PermisosHigienistas",
+            "PermisosAuxiliares",
+            "AccesosHC"
+          ],
+          "apis_requeridas": [
+            "GET /api/hc/roles",
+            "POST /api/hc/roles",
+            "GET /api/hc/permisos",
+            "POST /api/hc/permisos/asignar",
+            "GET /api/hc/auditoria"
+          ],
+          "estructura_carpetas": {
+            "page": "historia-clinica/gestion-roles-hc/page.tsx",
+            "api": "historia-clinica/gestion-roles-hc/api/",
+            "components": "historia-clinica/gestion-roles-hc/components/"
+          },
+          "funcionalidades": [
+            "Gestión de roles HC",
+            "Permisos por profesión",
+            "Control de accesos",
+            "Auditoría de cambios",
+            "Configuración granular"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paginaacrear": "Diagnóstico por Imagen & Multimedia",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Diagnóstico por Imagen & Multimedia del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: DICOM/PACS (RX, CBCT; visor, mediciones, anotaciones), integración HW (sensores, cámaras intraorales), galería multimedia (etiquetado, antes/después, comparación), AI asistida (opcional/terceros) para apoyo diagnóstico (caries, niveles óseos) vía integraciones y gestión de roles (Dentistas, Radiología, Auxiliares). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de diagnóstico por imagen, matrices de integración HW, configuraciones de DICOM y documentación de procesos de la sección.",
+      "subpaginas": [
+        {
+          "id": "4.1",
+          "nombre": "DICOM/PACS",
+          "ruta": "/diagnostico-imagen/dicom-pacs",
+          "descripcion": "Sistema DICOM/PACS para RX, CBCT con visor, mediciones y anotaciones",
+          "componentes_react": [
+            "DicomViewer",
+            "PacsManager",
+            "RXViewer",
+            "CBCTViewer",
+            "MedicionesImagen",
+            "AnotacionesImagen"
+          ],
+          "apis_requeridas": [
+            "GET /api/dicom/estudios/:pacienteId",
+            "POST /api/dicom/subir",
+            "GET /api/dicom/imagen/:id",
+            "POST /api/dicom/mediciones",
+            "POST /api/dicom/anotaciones"
+          ],
+          "estructura_carpetas": {
+            "page": "diagnostico-imagen/dicom-pacs/page.tsx",
+            "api": "diagnostico-imagen/dicom-pacs/api/",
+            "components": "diagnostico-imagen/dicom-pacs/components/"
+          },
+          "funcionalidades": [
+            "Visor DICOM",
+            "Gestión PACS",
+            "Visualización RX/CBCT",
+            "Herramientas de medición",
+            "Sistema de anotaciones"
+          ]
+        },
+        {
+          "id": "4.2",
+          "nombre": "Integración HW",
+          "ruta": "/diagnostico-imagen/integracion-hw",
+          "descripcion": "Integración con sensores y cámaras intraorales",
+          "componentes_react": [
+            "SensoresManager",
+            "CamarasIntraorales",
+            "IntegracionHW",
+            "ConfiguracionSensores",
+            "CalibracionEquipos"
+          ],
+          "apis_requeridas": [
+            "GET /api/hw/sensores",
+            "POST /api/hw/sensores/conectar",
+            "GET /api/hw/camaras",
+            "POST /api/hw/camaras/configurar",
+            "POST /api/hw/calibrar"
+          ],
+          "estructura_carpetas": {
+            "page": "diagnostico-imagen/integracion-hw/page.tsx",
+            "api": "diagnostico-imagen/integracion-hw/api/",
+            "components": "diagnostico-imagen/integracion-hw/components/"
+          },
+          "funcionalidades": [
+            "Integración de sensores",
+            "Conexión de cámaras",
+            "Configuración de hardware",
+            "Calibración automática",
+            "Monitoreo de estado"
+          ]
+        },
+        {
+          "id": "4.3",
+          "nombre": "Galería Multimedia",
+          "ruta": "/diagnostico-imagen/galeria-multimedia",
+          "descripcion": "Galería multimedia con etiquetado, antes/después y comparación",
+          "componentes_react": [
+            "GaleriaMultimedia",
+            "EtiquetadoImagenes",
+            "AntesDespues",
+            "ComparacionImagenes",
+            "OrganizadorGaleria"
+          ],
+          "apis_requeridas": [
+            "GET /api/galeria/:pacienteId",
+            "POST /api/galeria/subir",
+            "POST /api/galeria/etiquetar",
+            "GET /api/galeria/antes-despues/:pacienteId",
+            "POST /api/galeria/comparar"
+          ],
+          "estructura_carpetas": {
+            "page": "diagnostico-imagen/galeria-multimedia/page.tsx",
+            "api": "diagnostico-imagen/galeria-multimedia/api/",
+            "components": "diagnostico-imagen/galeria-multimedia/components/"
+          },
+          "funcionalidades": [
+            "Galería multimedia",
+            "Sistema de etiquetado",
+            "Comparativas antes/después",
+            "Herramientas de comparación",
+            "Organización automática"
+          ]
+        },
+        {
+          "id": "4.4",
+          "nombre": "AI Asistida",
+          "ruta": "/diagnostico-imagen/ai-asistida",
+          "descripcion": "AI asistida (opcional/terceros) para apoyo diagnóstico de caries y niveles óseos vía integraciones",
+          "componentes_react": [
+            "AIDiagnostica",
+            "DeteccionCaries",
+            "NivelesOseos",
+            "IntegracionesAI",
+            "ResultadosAI"
+          ],
+          "apis_requeridas": [
+            "POST /api/ai/analizar",
+            "GET /api/ai/resultados/:id",
+            "POST /api/ai/caries/detectar",
+            "POST /api/ai/niveles-oseos",
+            "GET /api/ai/integraciones"
+          ],
+          "estructura_carpetas": {
+            "page": "diagnostico-imagen/ai-asistida/page.tsx",
+            "api": "diagnostico-imagen/ai-asistida/api/",
+            "components": "diagnostico-imagen/ai-asistida/components/"
+          },
+          "funcionalidades": [
+            "Análisis AI asistido",
+            "Detección de caries",
+            "Análisis de niveles óseos",
+            "Integraciones terceros",
+            "Resultados interpretados"
+          ]
+        },
+        {
+          "id": "4.5",
+          "nombre": "Gestión de Roles Imagen",
+          "ruta": "/diagnostico-imagen/gestion-roles-imagen",
+          "descripcion": "Gestión de roles para Dentistas, Radiología y Auxiliares",
+          "componentes_react": [
+            "RolesImagenManager",
+            "PermisosDentistas",
+            "PermisosRadiologia",
+            "PermisosAuxiliares",
+            "AccesosImagen"
+          ],
+          "apis_requeridas": [
+            "GET /api/imagen/roles",
+            "POST /api/imagen/roles",
+            "GET /api/imagen/permisos",
+            "POST /api/imagen/permisos/asignar",
+            "GET /api/imagen/auditoria"
+          ],
+          "estructura_carpetas": {
+            "page": "diagnostico-imagen/gestion-roles-imagen/page.tsx",
+            "api": "diagnostico-imagen/gestion-roles-imagen/api/",
+            "components": "diagnostico-imagen/gestion-roles-imagen/components/"
+          },
+          "funcionalidades": [
+            "Gestión de roles imagen",
+            "Permisos por especialidad",
+            "Control de accesos",
+            "Auditoría de accesos",
+            "Configuración de permisos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paginaacrear": "Planes de Tratamiento & Presupuestos",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Planes de Tratamiento & Presupuestos del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: planificación (secuencias, dependencias, tiempos, recursos), presupuestos multi-opción (good/better/best, aceptación digital), consentimientos por tratamiento y material educativo, conversión & ganancia esperada (probabilidades, margen) y gestión de roles (Dentistas, Coordinador de tratamientos, Recepción). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de planes de tratamiento, matrices de presupuestos, configuraciones de conversión y documentación de procesos de la sección.",
+      "subpaginas": [
+        {
+          "id": "5.1",
+          "nombre": "Planificación",
+          "ruta": "/planes-tratamiento/planificacion",
+          "descripcion": "Planificación de tratamientos con secuencias, dependencias, tiempos y recursos",
+          "componentes_react": [
+            "PlanificacionTratamientos",
+            "SecuenciasTratamiento",
+            "DependenciasTratamiento",
+            "TiemposEstimados",
+            "RecursosNecesarios"
+          ],
+          "apis_requeridas": [
+            "GET /api/tratamientos/planificacion/:pacienteId",
+            "POST /api/tratamientos/planificar",
+            "PUT /api/tratamientos/secuencias/:id",
+            "GET /api/tratamientos/dependencias/:id",
+            "POST /api/tratamientos/recursos"
+          ],
+          "estructura_carpetas": {
+            "page": "planes-tratamiento/planificacion/page.tsx",
+            "api": "planes-tratamiento/planificacion/api/",
+            "components": "planes-tratamiento/planificacion/components/"
+          },
+          "funcionalidades": [
+            "Planificación de tratamientos",
+            "Gestión de secuencias",
+            "Control de dependencias",
+            "Estimación de tiempos",
+            "Asignación de recursos"
+          ]
+        },
+        {
+          "id": "5.2",
+          "nombre": "Presupuestos Multi-opción",
+          "ruta": "/planes-tratamiento/presupuestos-multi-opcion",
+          "descripcion": "Presupuestos multi-opción (good/better/best) con aceptación digital",
+          "componentes_react": [
+            "PresupuestosMultiOpcion",
+            "OpcionesGoodBetterBest",
+            "AceptacionDigital",
+            "CalculadoraPresupuestos",
+            "ComparativaOpciones"
+          ],
+          "apis_requeridas": [
+            "GET /api/presupuestos/:pacienteId",
+            "POST /api/presupuestos/crear",
+            "PUT /api/presupuestos/:id",
+            "POST /api/presupuestos/aceptar",
+            "GET /api/presupuestos/opciones/:id"
+          ],
+          "estructura_carpetas": {
+            "page": "planes-tratamiento/presupuestos-multi-opcion/page.tsx",
+            "api": "planes-tratamiento/presupuestos-multi-opcion/api/",
+            "components": "planes-tratamiento/presupuestos-multi-opcion/components/"
+          },
+          "funcionalidades": [
+            "Presupuestos multi-opción",
+            "Opciones good/better/best",
+            "Aceptación digital",
+            "Calculadora automática",
+            "Comparativa de opciones"
+          ]
+        },
+        {
+          "id": "5.3",
+          "nombre": "Consentimientos por Tratamiento",
+          "ruta": "/planes-tratamiento/consentimientos-tratamiento",
+          "descripcion": "Gestión de consentimientos específicos por tratamiento y material educativo",
+          "componentes_react": [
+            "ConsentimientosTratamiento",
+            "MaterialEducativo",
+            "ConsentimientosEspecificos",
+            "FirmaConsentimientos",
+            "GestionConsentimientos"
+          ],
+          "apis_requeridas": [
+            "GET /api/consentimientos/:tratamientoId",
+            "POST /api/consentimientos/crear",
+            "GET /api/consentimientos/material/:id",
+            "POST /api/consentimientos/firmar",
+            "GET /api/consentimientos/historial/:pacienteId"
+          ],
+          "estructura_carpetas": {
+            "page": "planes-tratamiento/consentimientos-tratamiento/page.tsx",
+            "api": "planes-tratamiento/consentimientos-tratamiento/api/",
+            "components": "planes-tratamiento/consentimientos-tratamiento/components/"
+          },
+          "funcionalidades": [
+            "Consentimientos por tratamiento",
+            "Material educativo",
+            "Consentimientos específicos",
+            "Firma digital",
+            "Gestión completa"
+          ]
+        },
+        {
+          "id": "5.4",
+          "nombre": "Conversión & Ganancia Esperada",
+          "ruta": "/planes-tratamiento/conversion-ganancia",
+          "descripcion": "Sistema de conversión con probabilidades y margen esperado",
+          "componentes_react": [
+            "ConversionTratamientos",
+            "ProbabilidadesConversion",
+            "MargenEsperado",
+            "AnalisisConversion",
+            "PrediccionesConversion"
+          ],
+          "apis_requeridas": [
+            "GET /api/conversion/tratamientos/:pacienteId",
+            "POST /api/conversion/calcular",
+            "GET /api/conversion/probabilidades/:id",
+            "GET /api/conversion/margen/:id",
+            "GET /api/conversion/analisis"
+          ],
+          "estructura_carpetas": {
+            "page": "planes-tratamiento/conversion-ganancia/page.tsx",
+            "api": "planes-tratamiento/conversion-ganancia/api/",
+            "components": "planes-tratamiento/conversion-ganancia/components/"
+          },
+          "funcionalidades": [
+            "Análisis de conversión",
+            "Cálculo de probabilidades",
+            "Margen esperado",
+            "Predicciones automáticas",
+            "Análisis de tendencias"
+          ]
+        },
+        {
+          "id": "5.5",
+          "nombre": "Gestión de Roles Tratamientos",
+          "ruta": "/planes-tratamiento/gestion-roles-tratamientos",
+          "descripcion": "Gestión de roles para Dentistas, Coordinador de tratamientos y Recepción",
+          "componentes_react": [
+            "RolesTratamientosManager",
+            "PermisosDentistas",
+            "PermisosCoordinador",
+            "PermisosRecepcion",
+            "AccesosTratamientos"
+          ],
+          "apis_requeridas": [
+            "GET /api/tratamientos/roles",
+            "POST /api/tratamientos/roles",
+            "GET /api/tratamientos/permisos",
+            "POST /api/tratamientos/permisos/asignar",
+            "GET /api/tratamientos/auditoria"
+          ],
+          "estructura_carpetas": {
+            "page": "planes-tratamiento/gestion-roles-tratamientos/page.tsx",
+            "api": "planes-tratamiento/gestion-roles-tratamientos/api/",
+            "components": "planes-tratamiento/gestion-roles-tratamientos/components/"
+          },
+          "funcionalidades": [
+            "Gestión de roles",
+            "Permisos por función",
+            "Control de accesos",
+            "Auditoría de cambios",
+            "Configuración granular"
+          ]
+        }
+      ]
+    }
+  ],
+  "configuracion": {
+    "total_ejemplos": 5,
+    "total_subpaginas": 26,
+    "categorias": ["Operación Diaria", "Paciente 360", "Historia Clínica", "Diagnóstico Imagen", "Planes Tratamiento"],
+    "estructura_mern": {
+      "frontend": {
+        "framework": "React/Next.js",
+        "estructura": "pages/components/api"
+      },
+      "backend": {
+        "framework": "Node.js/Express",
+        "estructura": "routes/controllers/models"
+      },
+      "database": "MongoDB",
+      "authentication": "JWT"
+    },
+    "uso": "Subpáginas del ERP Dental - Documentación completa para implementación en stack MERN con estructura de carpetas (page, api, components)"
+  }
+}

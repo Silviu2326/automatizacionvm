@@ -1,0 +1,176 @@
+{
+  "ejemplos": [
+    {
+      "id": 1,
+      "paginaacrear": "Citas Online",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Citas Online del Portal/App del Paciente. Esta página servirá como documentación completa del módulo de citas con reglas de agenda (disponibilidades, bloqueos, tipos de cita, profesionales, sedes) y auto-servicio del paciente. Incluir diagramas de flujo de reserva/reprogramación/cancelación, matrices de reglas de agenda, configuraciones de franjas, componentes React previstos y APIs necesarias, así como la estructura MERN (page, api, components) y documentación de procesos."
+    },
+    {
+      "id": 2,
+      "paginaacrear": "Pagos y Financiación (Portal Paciente)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Pagos y Financiación del Portal/App del Paciente. Documentar pagos online, links/TPV, financiación al paciente, estados de pago y conciliación básica hacia el ERP. Incluir flujos de pago/financiación, matrices de pasarelas, configuraciones de métodos, componentes React previstos, endpoints de pago/financiación y estructura MERN para su implementación."
+    },
+    {
+      "id": 3,
+      "paginaacrear": "Presupuestos y Consentimientos a Firmar",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Presupuestos y Consentimientos a Firmar del Portal/App del Paciente. Incluir aceptación digital de presupuestos, visualización de opciones, firma de consentimientos específicos/RGPD y registro de evidencias. Añadir diagramas de flujo de firma/aceptación, matrices de estados, configuraciones de plantillas, componentes React previstos, APIs de firma/aceptación y estructura MERN."
+    },
+    {
+      "id": 4,
+      "paginaacrear": "Documentos & Resultados (Portal)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Documentos & Resultados del Portal/App del Paciente. Incluir descarga de documentos clínicos/recetas, visualización de resultados y almacenamiento seguro. Documentar flujos de publicación, matrices de permisos, configuraciones de acceso temporal, componentes React previstos, APIs de documentos y estructura MERN."
+    },
+    {
+      "id": 5,
+      "paginaacrear": "Chat y Videoconsulta",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Chat y Videoconsulta del Portal/App del Paciente. Incluir mensajería segura, adjuntos, citas de videoconsulta y sala de espera virtual. Añadir flujos de comunicación, matrices de estados, configuraciones de proveedores de vídeo, componentes React previstos, APIs de mensajería/video y estructura MERN."
+    },
+    {
+      "id": 6,
+      "paginaacrear": "Recordatorios, Preparación y Cuidados Post-operatorios",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Recordatorios, Preparación de Cita y Cuidados Post-op del Portal/App del Paciente. Incluir recordatorios multicanal, instrucciones pre y post-operatorias y confirmaciones. Documentar flujos automáticos, matrices de plantillas, configuraciones de triggers, componentes React previstos, APIs de notificaciones y estructura MERN."
+    },
+    {
+      "id": 7,
+      "paginaacrear": "Gestión de Roles (Portal Paciente)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Gestión de Roles del Portal/App del Paciente (Paciente auto-servicio y Recepción). Incluir RBAC, permisos por acción/dato, autenticación y auditoría básica. Documentar matrices de permisos, flujos de acceso, configuraciones de MFA opcional, componentes React previstos, APIs de roles y estructura MERN."
+    },
+    {
+      "id": 8,
+      "paginaacrear": "Horarios & Turnos",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Horarios & Turnos de RR. HH., Turnos & Productividad. Incluir vacaciones, sustituciones, bloqueo de agenda y asignación por profesional/sillón. Documentar flujos de planificación, matrices de turnos, configuraciones de reglas, componentes React previstos, APIs de turnos y estructura MERN."
+    },
+    {
+      "id": 9,
+      "paginaacrear": "Objetivos & Productividades",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Objetivos & Productividades de RR. HH., Turnos & Productividad. Incluir metas por profesional/sillón, seguimiento y reporting. Documentar flujos de objetivos, matrices de KPIs internos, configuraciones de periodos, componentes React previstos, APIs de productividad y estructura MERN."
+    },
+    {
+      "id": 10,
+      "paginaacrear": "Retribución Variable (Comisiones)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Retribución Variable de RR. HH., Turnos & Productividad. Incluir reglas de comisiones por acto/producción, validaciones y liquidación. Documentar flujos de cálculo, matrices de reglas, configuraciones de liquidación, componentes React previstos, APIs de comisiones y estructura MERN."
+    },
+    {
+      "id": 11,
+      "paginaacrear": "Gestión de Roles (RR. HH.)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Gestión de Roles de RR. HH., Turnos & Productividad (Gerencia, RR. HH.). Incluir RBAC, permisos por módulo, auditoría y reportes. Documentar matrices de permisos, flujos de aprobación, configuraciones de acceso, componentes React previstos, APIs de roles y estructura MERN."
+    },
+    {
+      "id": 12,
+      "paginaacrear": "RGPD/LOPDGDD",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de RGPD/LOPDGDD de Calidad, Compliance & Auditoría. Incluir gestiones de consentimientos, derechos ARCO y políticas de retención. Documentar flujos de consentimiento, matrices de retención, configuraciones de privacidad, componentes React previstos, APIs y estructura MERN."
+    },
+    {
+      "id": 13,
+      "paginaacrear": "Historial de Cambios (Audit Log)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Historial de Cambios (audit log) de Calidad, Compliance & Auditoría. Incluir auditoría clínica/financiera, trazabilidad y alertas. Documentar flujos de logging, matrices de eventos, configuraciones de retención, componentes React previstos, APIs de auditoría y estructura MERN."
+    },
+    {
+      "id": 14,
+      "paginaacrear": "Protocolos & Checklists",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Protocolos & Checklists de Calidad, Compliance & Auditoría. Incluir esterilización, cirugía e incidentes. Documentar flujos de protocolos, matrices de verificación, configuraciones de checklists, componentes React previstos, APIs y estructura MERN."
+    },
+    {
+      "id": 15,
+      "paginaacrear": "Ensayos/Investigación (Opcional)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Ensayos/Investigación (opcional) de Calidad, Compliance & Auditoría. Incluir consentimiento específico, anonimización y criterios de inclusión. Documentar flujos de ensayo, matrices de datos, configuraciones de anonimización, componentes React previstos, APIs y estructura MERN."
+    },
+    {
+      "id": 16,
+      "paginaacrear": "Gestión de Roles (Compliance)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Gestión de Roles de Calidad, Compliance & Auditoría (Compliance, Gerencia, Calidad). Incluir RBAC, segregación de funciones y auditoría. Documentar matrices de permisos, flujos de revisión, configuraciones de controles, componentes React previstos, APIs de roles y estructura MERN."
+    },
+    {
+      "id": 17,
+      "paginaacrear": "KPIs Operativos",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de KPIs Operativos de Analítica, BI & Data (ocupación, no-show, ticket medio, aceptación). Incluir definiciones, fórmulas y fuentes de datos. Documentar cuadros, matrices de KPIs, configuraciones de filtros, componentes React previstos, APIs de datos y estructura MERN."
+    },
+    {
+      "id": 18,
+      "paginaacrear": "KPIs Clínicos",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de KPIs Clínicos de Analítica, BI & Data (tasas por especialidad, revisiones, complicaciones). Documentar definiciones, fuentes y dashboards por especialidad. Incluir matrices de KPIs, configuraciones por periodo, componentes React previstos, APIs y estructura MERN."
+    },
+    {
+      "id": 19,
+      "paginaacrear": "KPIs Económicos",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de KPIs Económicos de Analítica, BI & Data (margen/tratamiento, ARPU, LTV, CAC, cash-flow). Documentar definiciones, fórmulas y visualizaciones. Incluir matrices de KPIs, configuraciones de series, componentes React previstos, APIs y estructura MERN."
+    },
+    {
+      "id": 20,
+      "paginaacrear": "Cuadros por Rol",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Cuadros por Rol de Analítica, BI & Data (propietario, clínica, especialista, marketing). Incluir layout por perfil, permisos y métricas clave. Documentar flujos de acceso, matrices de vistas, componentes React previstos, APIs y estructura MERN."
+    },
+    {
+      "id": 21,
+      "paginaacrear": "Exportador & Cubos (Conectores BI)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Exportador & Cubos de Analítica, BI & Data (CSV, Excel, conectores BI). Incluir extracciones, modelos de datos y seguridad. Documentar flujos de export, matrices de datasets, configuraciones de conectores, componentes React previstos, APIs y estructura MERN."
+    },
+    {
+      "id": 22,
+      "paginaacrear": "Gestión de Roles (Analítica)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Gestión de Roles de Analítica, BI & Data (Gerencia, Finanzas, Marketing, Jefes de área). Incluir RBAC por dataset/vista. Documentar matrices de permisos, flujos de publicación, componentes React previstos, APIs de permisos y estructura MERN."
+    },
+    {
+      "id": 23,
+      "paginaacrear": "Reglas (si X entonces Y)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Reglas (si X entonces Y) de Automatizaciones & Reglas. Incluir ejemplos como no-show → recontacto, implante → revisión. Documentar flujos, matrices de reglas, configuraciones de condiciones/acciones, componentes React previstos, APIs de reglas y estructura MERN."
+    },
+    {
+      "id": 24,
+      "paginaacrear": "Workflows por Especialidad",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Workflows por Especialidad de Automatizaciones & Reglas (orto, implanto, perio). Documentar flujos cross-módulo, matrices de estados, configuraciones por especialidad, componentes React previstos, APIs de workflows y estructura MERN."
+    },
+    {
+      "id": 25,
+      "paginaacrear": "Tareas Automáticas Internas",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Tareas Automáticas Internas de Automatizaciones & Reglas (asignación, vencimientos). Documentar planificador, colas, reintentos y trazabilidad. Incluir matrices de tareas, configuraciones de scheduler, componentes React previstos, APIs de tareas y estructura MERN."
+    },
+    {
+      "id": 26,
+      "paginaacrear": "Gestión de Roles (Automatizaciones)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Gestión de Roles de Automatizaciones & Reglas (Todos según permisos, Operaciones). Incluir RBAC sobre reglas y ejecuciones. Documentar matrices de permisos, flujos de aprobación, componentes React previstos, APIs de permisos y estructura MERN."
+    }
+  ],
+  "configuracion": {
+    "total_ejemplos": 26,
+    "categorias": [
+      "Portal/App del Paciente",
+      "RRHH, Turnos & Productividad",
+      "Calidad, Compliance & Auditoría",
+      "Analítica, BI & Data",
+      "Automatizaciones & Reglas"
+    ],
+    "uso": "Subpáginas ERP Dental (IDs 11-15) - Documentación para implementación MERN"
+  }
+}
+
+
+
+
+

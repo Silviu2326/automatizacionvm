@@ -1,0 +1,266 @@
+{
+  "ejemplos": [
+    {
+      "id": 1,
+      "paginaacrear": "PACS/DICOM (Integraciones)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Documentación de integración PACS/DICOM (RX, CBCT) con visor, almacenamiento, consultas C-FIND/C-MOVE y seguridad. Incluir flujos de intercambio, matrices de endpoints DICOM, configuraciones de PACS/AE Titles, componentes React previstos, endpoints de backend y estructura MERN."
+    },
+    {
+      "id": 2,
+      "paginaacrear": "E-prescripción (Integraciones)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Documentación de e-prescripción según país (formatos, firma, envío a farmacia). Incluir flujos de emisión/consulta/anulación, matrices normativas, configuraciones por país, componentes React previstos, endpoints y estructura MERN."
+    },
+    {
+      "id": 3,
+      "paginaacrear": "Pasarelas de Pago (Integraciones)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Documentación de pasarelas de pago (links, TPV, PCI, webhooks). Incluir flujos de cobro/reembolso, matrices de proveedores, configuraciones de claves/webhooks, componentes React previstos, endpoints y estructura MERN."
+    },
+    {
+      "id": 4,
+      "paginaacrear": "Financieras (Integraciones)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Documentación de integraciones con financieras (solicitud, scoring, firma, liquidación). Incluir flujos end-to-end, matrices de estados, configuraciones por partner, componentes React previstos, endpoints y estructura MERN."
+    },
+    {
+      "id": 5,
+      "paginaacrear": "Contabilidad (Integraciones)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Documentación de integraciones contables (Sage, A3, Contaplus). Incluir flujos de exportación, mapping de cuentas, centros de coste, conciliación y validaciones. Componentes React previstos, endpoints y estructura MERN."
+    },
+    {
+      "id": 6,
+      "paginaacrear": "WhatsApp/SMS/Email Transaccional (Integraciones)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Documentación de mensajería transaccional (WhatsApp Business API, SMS, email). Incluir flujos de plantillas, variables clínicas, opt-in, matrices de canales, componentes React previstos, endpoints y estructura MERN."
+    },
+    {
+      "id": 7,
+      "paginaacrear": "API Pública & Webhooks",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Documentación de API pública (SDKs, sandbox) y webhooks. Incluir autenticación, rate limits, versionado, catálogos de eventos, pruebas de sandbox, componentes React de referencia, endpoints y estructura MERN."
+    },
+    {
+      "id": 8,
+      "paginaacrear": "Importadores & Migraciones",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Documentación de importadores/migraciones (Gesden/Clinicare u otros). Incluir mapping de datos, validaciones, plan de pruebas y reconciliación. Componentes React de carga/seguimiento, endpoints y estructura MERN."
+    },
+    {
+      "id": 9,
+      "paginaacrear": "Gestión de Roles (Integraciones)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "RBAC para integraciones (IT/Admin, Partners). Incluir permisos por conector, rotación de claves, auditoría. Documentar matrices de permisos, flujos de alta/baja, componentes React, endpoints y estructura MERN."
+    },
+
+    {
+      "id": 10,
+      "paginaacrear": "Catálogo & Tarifas por Sede (Multi-sede)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Documentación de catálogo y tarifas por sede. Incluir herencia/overrides, listas de precios y promociones locales. Flujos de sincronización, matrices por sede, componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 11,
+      "paginaacrear": "Políticas Locales (Multi-sede)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Documentación de políticas locales (horarios, festivos, idiomas, IVA). Incluir reglas por sede, precedencias y auditoría. Componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 12,
+      "paginaacrear": "Roles Cross-sede (Multi-sede)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Documentación de roles y permisos cross-sede. Incluir modelos de acceso, delegación y auditoría. Matrices de roles, componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 13,
+      "paginaacrear": "Transferencia de Pacientes (Multi-sede)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Flujos para transferir pacientes entre sedes: consentimiento, historia clínica, documentos, contabilidad. Matrices de datos, validaciones, componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 14,
+      "paginaacrear": "Reporting Consolidado & Benchmarking (Multi-sede)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Documentación de reporting consolidado y benchmarking entre sedes. Incluir modelos de consolidación, dimensiones comunes, dashboards, componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 15,
+      "paginaacrear": "Acuerdos de Franquicia (Multi-sede)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Documentación de acuerdos de franquicia (royalties, estándares). Incluir flujos de cálculo/liquidación, matrices contractuales, componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 16,
+      "paginaacrear": "Gestión de Roles (Multi-sede)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "RBAC para multi-sede (Propietario, Dirección regional, Finanzas). Incluir scopes por sede, delegaciones y auditoría. Matrices de permisos, componentes React, endpoints y estructura MERN."
+    },
+
+    {
+      "id": 17,
+      "paginaacrear": "Usuarios, Roles y Permisos (Infraestructura)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Documentación de RBAC/ABAC, provisión de usuarios, segregación de funciones. Incluir flujos de alta/baja, matrices de permisos, componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 18,
+      "paginaacrear": "MFA & SSO (Infraestructura)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Documentación de MFA (TOTP, SMS) y SSO (SAML/OIDC). Incluir flujos de login, políticas, recuperación y auditoría. Componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 19,
+      "paginaacrear": "Backups & DRP (Infraestructura)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Documentación de backups, RPO/RTO y planes de recuperación. Incluir matrices de retención, cifrado, pruebas de restauración, componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 20,
+      "paginaacrear": "Monitorización & Logs (Infraestructura)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Documentación de rendimiento, errores y SIEM. Incluir métricas clave, alertas, dashboards, trazas distribuidas, componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 21,
+      "paginaacrear": "Cumplimiento Técnico (Infraestructura)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Documentación de DPA/BAA si aplica, cifrado en reposo/tránsito, políticas de acceso, hardening. Incluir matrices de cumplimiento, controles, componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 22,
+      "paginaacrear": "Accesibilidad, Multi-idioma & Multi-moneda (Infraestructura)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Documentación de accesibilidad (WCAG), i18n/l10n y multi-moneda. Incluir flujos de traducción, formatos locales, redondeos, componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 23,
+      "paginaacrear": "On-prem / Cloud / Híbrido (Infraestructura)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Estrategias de despliegue on-prem, Cloud y híbrido. Incluir topologías, requisitos, seguridad y networking. Componentes React de administración, endpoints y estructura MERN."
+    },
+    {
+      "id": 24,
+      "paginaacrear": "Gestión de Roles (IT/Admin/Compliance)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "RBAC para IT/Admin/Compliance. Incluir permisos por área, auditoría, evidencias y segregación de funciones. Matrices de permisos, componentes React, endpoints y estructura MERN."
+    },
+
+    {
+      "id": 25,
+      "paginaacrear": "Academy (Cursos, Vídeos, Certificaciones)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Documentación de academy (cursos, rutas de aprendizaje, certificaciones). Incluir flujos de inscripción/progreso, matrices de contenidos, componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 26,
+      "paginaacrear": "Biblioteca Clínica (Protocolos, Guías, Plantillas)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Repositorio de protocolos, guías y plantillas clínicas. Incluir clasificaciones, búsqueda, permisos, componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 27,
+      "paginaacrear": "Centro de Ayuda & Tours Interactivos",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Centro de ayuda con artículos, FAQs y tours interactivos. Incluir flujos de onboarding por rol, matrices de contenidos, componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 28,
+      "paginaacrear": "Gestión de Roles (Formación/Conocimiento)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "RBAC para formación/conocimiento. Incluir permisos por rol, publicación y revisión. Matrices de permisos, componentes React, endpoints y estructura MERN."
+    },
+
+    {
+      "id": 29,
+      "paginaacrear": "Tickets & SLAs (Soporte)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Documentación de gestión de tickets & SLAs. Incluir flujos de creación/asignación/escala, colas, KPIs y reportes. Componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 30,
+      "paginaacrear": "Encuestas de Satisfacción (Soporte)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Documentación de encuestas post-servicio (CSAT, CES, NPS). Incluir plantillas, triggers, dashboards y segmentación. Componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 31,
+      "paginaacrear": "Health-score por Cuenta (Éxito del Cliente)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Definición y cálculo del health-score por cuenta. Incluir señales de uso, objetivos y alertas. Componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 32,
+      "paginaacrear": "Riesgos de Churn & Playbooks de Éxito",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Identificación de riesgos de churn, playbooks de mitigación y seguimiento. Incluir flujos de alerta, matrices de acciones, componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 33,
+      "paginaacrear": "Gestión de Roles (Soporte/Éxito)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "RBAC para Customer Success y Soporte. Incluir permisos, colas y auditoría. Matrices de permisos, componentes React, endpoints y estructura MERN."
+    },
+
+    {
+      "id": 34,
+      "paginaacrear": "Catálogo de Tratamientos (Configuración)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Configuración de nomenclatura, tiempos, precios y combos. Incluir flujos de alta/edición, matrices de atributos, validaciones, componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 35,
+      "paginaacrear": "Consentimientos & Plantillas (Configuración)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Gestión de consentimientos y plantillas por especialidad. Incluir versiones, firma y archivado. Componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 36,
+      "paginaacrear": "Reglas de Agenda (Configuración)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Reglas de agenda (duraciones, bloqueos, dependencias, prioridades). Incluir flujos de validación, matrices de reglas, componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 37,
+      "paginaacrear": "Permisos por Dato (Configuración)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Permisos por dato/campo. Incluir masking, niveles de acceso y auditoría. Matrices de permisos, componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 38,
+      "paginaacrear": "Vistas Guardadas (Configuración)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Definición de vistas guardadas con filtros/columnas. Incluir compartición, favoritos y permisos. Componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 39,
+      "paginaacrear": "Campos Personalizados (Configuración)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Campos personalizados clínicos y administrativos. Incluir tipos, validaciones y herencia. Componentes React, endpoints y estructura MERN."
+    },
+    {
+      "id": 40,
+      "paginaacrear": "Gestión de Roles (Configuración)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "RBAC para Administrador de clínica/IT. Incluir permisos de configuración, auditoría y publicación de cambios. Matrices de permisos, componentes React, endpoints y estructura MERN."
+    }
+  ],
+  "configuracion": {
+    "total_ejemplos": 40,
+    "categorias": [
+      "Integraciones & API",
+      "Multi-sede, Franquicia & Enterprise",
+      "Infraestructura, Seguridad & IT",
+      "Formación, SOPs & Conocimiento",
+      "Soporte & Éxito del Cliente",
+      "Configuración & Parametrización fina"
+    ],
+    "uso": "Subpáginas ERP Dental (IDs 16-21) - Documentación para implementación MERN"
+  }
+}
+
+
+
+
+

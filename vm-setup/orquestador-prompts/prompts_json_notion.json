@@ -1,0 +1,12 @@
+{
+  "prompt": "Convierte este JSON ({{archivo_json}}) en páginas de Notion usando la plantilla ({{plantilla}})",
+  "descripcion": "Prompt para convertir JSON a páginas de Notion",
+  "tipo": "json_notion",
+  "configuracion": {
+    "tiempo_espera": 45,
+    "reintentos": 3,
+    "formato_salida": "paginas_notion"
+  }
+}
+
+

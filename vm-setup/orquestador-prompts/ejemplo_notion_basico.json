@@ -1,0 +1,29 @@
+{
+  "nombre": "Ejemplo Notion Básico",
+  "descripcion": "Archivo de ejemplo para crear páginas en Notion",
+  "tipo": "notion_creator",
+  "contenido": {
+    "titulo": "Página de Ejemplo",
+    "secciones": [
+      {
+        "titulo": "Introducción",
+        "contenido": "Esta es una página de ejemplo creada por el orquestador de prompts."
+      },
+      {
+        "titulo": "Características",
+        "contenido": "Lista de características principales del sistema."
+      },
+      {
+        "titulo": "Configuración",
+        "contenido": "Pasos para configurar el sistema correctamente."
+      }
+    ]
+  },
+  "configuracion": {
+    "tiempo_espera": 30,
+    "modo": "secuencial",
+    "reintentos": 3
+  }
+}
+
+

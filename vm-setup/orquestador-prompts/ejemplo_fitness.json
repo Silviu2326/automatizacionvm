@@ -1,0 +1,29 @@
+{
+  "nombre": "Ejemplo Fitness",
+  "descripcion": "Archivo de ejemplo para contenido fitness",
+  "tipo": "notion_creator",
+  "contenido": {
+    "titulo": "Rutina de Ejercicios",
+    "secciones": [
+      {
+        "titulo": "Calentamiento",
+        "contenido": "Ejercicios de calentamiento para preparar el cuerpo."
+      },
+      {
+        "titulo": "Ejercicios Principales",
+        "contenido": "Rutina principal de ejercicios de fuerza y cardio."
+      },
+      {
+        "titulo": "Enfriamiento",
+        "contenido": "Ejercicios de estiramiento y relajación."
+      }
+    ]
+  },
+  "configuracion": {
+    "tiempo_espera": 60,
+    "modo": "secuencial",
+    "reintentos": 2
+  }
+}
+
+

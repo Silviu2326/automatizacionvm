@@ -1,0 +1,37 @@
+{
+  "nombre": "Generador de Páginas Web",
+  "version": "1.0",
+  "descripcion": "Prompts para generar páginas web desde contenido de Notion",
+  "prompts": [
+    {
+      "id": "html_css_generation",
+      "nombre": "Generación HTML/CSS",
+      "prompt": "Genera páginas web HTML/CSS desde contenido de Notion:\n\n## 🎨 DISEÑO RESPONSIVE\n- Mobile-first design\n- Breakpoints adaptativos\n- Grid y flexbox\n- Typography escalable\n- Imágenes responsivas\n\n## 📝 ESTRUCTURA HTML\n- HTML5 semántico\n- Accesibilidad (a11y)\n- SEO optimization\n- Meta tags\n- Schema markup\n\n## 🎨 ESTILOS CSS\n- CSS Grid y Flexbox\n- Variables CSS\n- Animaciones suaves\n- Transiciones\n- Dark/Light mode\n\n## 📱 OPTIMIZACIÓN\n- Performance optimization\n- Lazy loading\n- Minificación\n- Compresión\n- Caching\n\n## 🎯 FRAMEWORKS\n- Tailwind CSS\n- Bootstrap\n- Foundation\n- Bulma\n- CSS puro\n\nProporciona código HTML/CSS completo y optimizado.",
+      "contexto": "Generación de páginas web HTML/CSS"
+    },
+    {
+      "id": "react_components",
+      "nombre": "Componentes React",
+      "prompt": "Crea componentes React desde contenido de Notion:\n\n## ⚛️ COMPONENTES REACT\n- Functional components\n- Hooks personalizados\n- Props y state\n- Event handling\n- Lifecycle management\n\n## 🎨 STYLING\n- CSS Modules\n- Styled Components\n- Emotion\n- CSS-in-JS\n- Tailwind CSS\n\n## 📱 RESPONSIVE DESIGN\n- Mobile-first approach\n- Breakpoint management\n- Touch interactions\n- Performance optimization\n- Accessibility\n\n## 🔄 STATE MANAGEMENT\n- useState y useEffect\n- Context API\n- Redux Toolkit\n- Zustand\n- Custom hooks\n\n## 🎯 FEATURES\n- Dynamic content\n- Interactive elements\n- Form handling\n- Data fetching\n- Error boundaries\n\nIncluye TypeScript, testing y mejores prácticas.",
+      "contexto": "Componentes React desde Notion"
+    },
+    {
+      "id": "static_site_generation",
+      "nombre": "Generación de Sitios Estáticos",
+      "prompt": "Genera sitios estáticos completos desde Notion:\n\n## 🚀 STATIC SITE GENERATORS\n- Next.js (SSG)\n- Gatsby\n- Nuxt.js\n- Astro\n- 11ty\n\n## 📄 PÁGINAS ESTÁTICAS\n- Markdown processing\n- Template engines\n- Data fetching\n- Image optimization\n- SEO optimization\n\n## 🔧 BUILD PROCESS\n- Webpack/Vite\n- Babel/TypeScript\n- PostCSS/Sass\n- Asset optimization\n- Deployment ready\n\n## 📊 CONTENT MANAGEMENT\n- Headless CMS\n- Markdown files\n- JSON data\n- API integration\n- Content versioning\n\n## 🎯 DEPLOYMENT\n- Vercel\n- Netlify\n- GitHub Pages\n- AWS S3\n- CDN optimization\n\nProporciona configuración completa de build y deployment.",
+      "contexto": "Generación de sitios estáticos"
+    }
+  ],
+  "configuracion": {
+    "frameworks": "React, Next.js, Gatsby, Astro",
+    "styling": "Tailwind CSS, Styled Components",
+    "build": "Webpack, Vite, esbuild",
+    "deployment": "Vercel, Netlify, AWS"
+  }
+}
+
+
+
+
+
+

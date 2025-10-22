@@ -1,0 +1,261 @@
+{
+  "ejemplos": [
+    {
+      "id": 4,
+      "paginaacrear": "Planificación de Recursos",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Planificación de Recursos del ERP dental. Esta página servirá como documentación completa del módulo de gestión de sillones, salas, equipo RX y duración por procedimiento. Incluir diagramas de flujo de recursos, matrices de sillones y salas, configuraciones de equipos, documentación de componentes React (RecursosManager, SillonesScheduler, SalasManager, EquipoRXControl, DuracionProcedimientos), APIs requeridas (GET /api/recursos/sillones, GET /api/recursos/salas, GET /api/recursos/equipo-rx, POST /api/recursos/asignar, PUT /api/recursos/duracion/:id), estructura de carpetas MERN (operacion-diaria/planificacion-recursos/page.tsx, operacion-diaria/planificacion-recursos/api/, operacion-diaria/planificacion-recursos/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 11,
+      "paginaacrear": "Gestión de Roles CRM",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Gestión de Roles CRM del ERP dental. Esta página servirá como documentación completa del módulo de gestión de roles con permisos según RBAC para todos los usuarios. Incluir diagramas de flujo de roles CRM, matrices de permisos RBAC, configuraciones de accesos, documentación de componentes React (RolesCRMManager, PermisosRBAC, UsuariosAsignacionCRM, AccesosDatosPaciente, AuditoriaCRM), APIs requeridas (GET /api/crm/roles, POST /api/crm/roles, GET /api/crm/permisos, POST /api/crm/permisos/asignar, GET /api/crm/auditoria), estructura de carpetas MERN (paciente-360/gestion-roles-crm/page.tsx, paciente-360/gestion-roles-crm/api/, paciente-360/gestion-roles-crm/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 12,
+      "paginaacrear": "HC Estructurada",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de HC Estructurada del ERP dental. Esta página servirá como documentación completa del módulo de historia clínica estructurada con SOAP, plantillas por especialidad y dictado por voz. Incluir diagramas de flujo de HC estructurada, matrices de plantillas SOAP, configuraciones de especialidades, documentación de componentes React (HCEstructurada, PlantillasSOAP, PlantillasEspecialidad, DictadoVoz, EditorHC), APIs requeridas (GET /api/hc/plantillas, POST /api/hc/registro, GET /api/hc/:id, PUT /api/hc/:id, POST /api/hc/dictado), estructura de carpetas MERN (historia-clinica/hc-estructurada/page.tsx, historia-clinica/hc-estructurada/api/, historia-clinica/hc-estructurada/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 14,
+      "paginaacrear": "Periodontograma",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Periodontograma del ERP dental. Esta página servirá como documentación completa del módulo de periodontograma con bolsas, sangrado, movilidad, placa y comparativas. Incluir diagramas de flujo de periodontograma, matrices de bolsas periodontales, configuraciones de sangrado, documentación de componentes React (PeriodontogramaViewer, BolsasPeriodontales, SangradoGingival, MovilidadDental, PlacaBacteriana, ComparativasPeriodontales), APIs requeridas (GET /api/periodontograma/:pacienteId, POST /api/periodontograma/registro, PUT /api/periodontograma/:id, GET /api/periodontograma/comparativas/:pacienteId, GET /api/periodontograma/evolucion/:pacienteId), estructura de carpetas MERN (historia-clinica/periodontograma/page.tsx, historia-clinica/periodontograma/api/, historia-clinica/periodontograma/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 16,
+      "paginaacrear": "Alertas Clínicas & Contraindicaciones",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Alertas Clínicas & Contraindicaciones del ERP dental. Esta página servirá como documentación completa del módulo de sistema de alertas clínicas y contraindicaciones para tratamientos. Incluir diagramas de flujo de alertas, matrices de contraindicaciones, configuraciones de interacciones, documentación de componentes React (AlertasClinicas, Contraindicaciones, InteraccionesMedicamentosas, AlertasAlergias, SistemaAlertas), APIs requeridas (GET /api/alertas/:pacienteId, POST /api/alertas/crear, GET /api/contraindicaciones/:pacienteId, POST /api/contraindicaciones/registrar, GET /api/interacciones/medicamentos), estructura de carpetas MERN (historia-clinica/alertas-contraindicaciones/page.tsx, historia-clinica/alertas-contraindicaciones/api/, historia-clinica/alertas-contraindicaciones/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 17,
+      "paginaacrear": "Gestión de Roles HC",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Gestión de Roles HC del ERP dental. Esta página servirá como documentación completa del módulo de gestión de roles para Dentistas, Higienistas y Auxiliares. Incluir diagramas de flujo de roles HC, matrices de permisos por profesión, configuraciones de accesos, documentación de componentes React (RolesHCManager, PermisosDentistas, PermisosHigienistas, PermisosAuxiliares, AccesosHC), APIs requeridas (GET /api/hc/roles, POST /api/hc/roles, GET /api/hc/permisos, POST /api/hc/permisos/asignar, GET /api/hc/auditoria), estructura de carpetas MERN (historia-clinica/gestion-roles-hc/page.tsx, historia-clinica/gestion-roles-hc/api/, historia-clinica/gestion-roles-hc/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 18,
+      "paginaacrear": "DICOM/PACS",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de DICOM/PACS del ERP dental. Esta página servirá como documentación completa del módulo de sistema DICOM/PACS para RX, CBCT con visor, mediciones y anotaciones. Incluir diagramas de flujo de DICOM, matrices de PACS, configuraciones de visores, documentación de componentes React (DicomViewer, PacsManager, RXViewer, CBCTViewer, MedicionesImagen, AnotacionesImagen), APIs requeridas (GET /api/dicom/estudios/:pacienteId, POST /api/dicom/subir, GET /api/dicom/imagen/:id, POST /api/dicom/mediciones, POST /api/dicom/anotaciones), estructura de carpetas MERN (diagnostico-imagen/dicom-pacs/page.tsx, diagnostico-imagen/dicom-pacs/api/, diagnostico-imagen/dicom-pacs/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 19,
+      "paginaacrear": "Integración HW",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Integración HW del ERP dental. Esta página servirá como documentación completa del módulo de integración con sensores y cámaras intraorales. Incluir diagramas de flujo de integración HW, matrices de sensores, configuraciones de cámaras, documentación de componentes React (SensoresManager, CamarasIntraorales, IntegracionHW, ConfiguracionSensores, CalibracionEquipos), APIs requeridas (GET /api/hw/sensores, POST /api/hw/sensores/conectar, GET /api/hw/camaras, POST /api/hw/camaras/configurar, POST /api/hw/calibrar), estructura de carpetas MERN (diagnostico-imagen/integracion-hw/page.tsx, diagnostico-imagen/integracion-hw/api/, diagnostico-imagen/integracion-hw/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 20,
+      "paginaacrear": "Galería Multimedia",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Galería Multimedia del ERP dental. Esta página servirá como documentación completa del módulo de galería multimedia con etiquetado, antes/después y comparación. Incluir diagramas de flujo de galería, matrices de etiquetado, configuraciones de comparativas, documentación de componentes React (GaleriaMultimedia, EtiquetadoImagenes, AntesDespues, ComparacionImagenes, OrganizadorGaleria), APIs requeridas (GET /api/galeria/:pacienteId, POST /api/galeria/subir, POST /api/galeria/etiquetar, GET /api/galeria/antes-despues/:pacienteId, POST /api/galeria/comparar), estructura de carpetas MERN (diagnostico-imagen/galeria-multimedia/page.tsx, diagnostico-imagen/galeria-multimedia/api/, diagnostico-imagen/galeria-multimedia/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 21,
+      "paginaacrear": "AI Asistida",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de AI Asistida del ERP dental. Esta página servirá como documentación completa del módulo de AI asistida (opcional/terceros) para apoyo diagnóstico de caries y niveles óseos vía integraciones. Incluir diagramas de flujo de AI, matrices de integraciones, configuraciones de terceros, documentación de componentes React (AIDiagnostica, DeteccionCaries, NivelesOseos, IntegracionesAI, ResultadosAI), APIs requeridas (POST /api/ai/analizar, GET /api/ai/resultados/:id, POST /api/ai/caries/detectar, POST /api/ai/niveles-oseos, GET /api/ai/integraciones), estructura de carpetas MERN (diagnostico-imagen/ai-asistida/page.tsx, diagnostico-imagen/ai-asistida/api/, diagnostico-imagen/ai-asistida/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 22,
+      "paginaacrear": "Gestión de Roles Imagen",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Gestión de Roles Imagen del ERP dental. Esta página servirá como documentación completa del módulo de gestión de roles para Dentistas, Radiología y Auxiliares. Incluir diagramas de flujo de roles imagen, matrices de permisos por especialidad, configuraciones de accesos, documentación de componentes React (RolesImagenManager, PermisosDentistas, PermisosRadiologia, PermisosAuxiliares, AccesosImagen), APIs requeridas (GET /api/imagen/roles, POST /api/imagen/roles, GET /api/imagen/permisos, POST /api/imagen/permisos/asignar, GET /api/imagen/auditoria), estructura de carpetas MERN (diagnostico-imagen/gestion-roles-imagen/page.tsx, diagnostico-imagen/gestion-roles-imagen/api/, diagnostico-imagen/gestion-roles-imagen/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 23,
+      "paginaacrear": "Planificación",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Planificación del ERP dental. Esta página servirá como documentación completa del módulo de planificación de tratamientos con secuencias, dependencias, tiempos y recursos. Incluir diagramas de flujo de planificación, matrices de secuencias, configuraciones de dependencias, documentación de componentes React (PlanificacionTratamientos, SecuenciasTratamiento, DependenciasTratamiento, TiemposEstimados, RecursosNecesarios), APIs requeridas (GET /api/tratamientos/planificacion/:pacienteId, POST /api/tratamientos/planificar, PUT /api/tratamientos/secuencias/:id, GET /api/tratamientos/dependencias/:id, POST /api/tratamientos/recursos), estructura de carpetas MERN (planes-tratamiento/planificacion/page.tsx, planes-tratamiento/planificacion/api/, planes-tratamiento/planificacion/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 25,
+      "paginaacrear": "Consentimientos por Tratamiento",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Consentimientos por Tratamiento del ERP dental. Esta página servirá como documentación completa del módulo de gestión de consentimientos específicos por tratamiento y material educativo. Incluir diagramas de flujo de consentimientos, matrices de tratamientos, configuraciones de material educativo, documentación de componentes React (ConsentimientosTratamiento, MaterialEducativo, ConsentimientosEspecificos, FirmaConsentimientos, GestionConsentimientos), APIs requeridas (GET /api/consentimientos/:tratamientoId, POST /api/consentimientos/crear, GET /api/consentimientos/material/:id, POST /api/consentimientos/firmar, GET /api/consentimientos/historial/:pacienteId), estructura de carpetas MERN (planes-tratamiento/consentimientos-tratamiento/page.tsx, planes-tratamiento/consentimientos-tratamiento/api/, planes-tratamiento/consentimientos-tratamiento/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 26,
+      "paginaacrear": "Conversión & Ganancia Esperada",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Conversión & Ganancia Esperada del ERP dental. Esta página servirá como documentación completa del módulo de sistema de conversión con probabilidades y margen esperado. Incluir diagramas de flujo de conversión, matrices de probabilidades, configuraciones de margen, documentación de componentes React (ConversionTratamientos, ProbabilidadesConversion, MargenEsperado, AnalisisConversion, PrediccionesConversion), APIs requeridas (GET /api/conversion/tratamientos/:pacienteId, POST /api/conversion/calcular, GET /api/conversion/probabilidades/:id, GET /api/conversion/margen/:id, GET /api/conversion/analisis), estructura de carpetas MERN (planes-tratamiento/conversion-ganancia/page.tsx, planes-tratamiento/conversion-ganancia/api/, planes-tratamiento/conversion-ganancia/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 27,
+      "paginaacrear": "Gestión de Roles Tratamientos",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Gestión de Roles Tratamientos del ERP dental. Esta página servirá como documentación completa del módulo de gestión de roles para Dentistas, Coordinador de tratamientos y Recepción. Incluir diagramas de flujo de roles tratamientos, matrices de permisos por función, configuraciones de accesos, documentación de componentes React (RolesTratamientosManager, PermisosDentistas, PermisosCoordinador, PermisosRecepcion, AccesosTratamientos), APIs requeridas (GET /api/tratamientos/roles, POST /api/tratamientos/roles, GET /api/tratamientos/permisos, POST /api/tratamientos/permisos/asignar, GET /api/tratamientos/auditoria), estructura de carpetas MERN (planes-tratamiento/gestion-roles-tratamientos/page.tsx, planes-tratamiento/gestion-roles-tratamientos/api/, planes-tratamiento/gestion-roles-tratamientos/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 28,
+      "paginaacrear": "Facturación",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Facturación del ERP dental. Esta página servirá como documentación completa del módulo de facturación con actos, paquetes, bonos, IVA sanitario y TPV/links. Incluir diagramas de flujo de facturación, matrices de actos y paquetes, configuraciones de IVA sanitario, documentación de componentes React (FacturacionManager, ActosFacturacion, PaquetesBonos, IVASanitario, TPVLinks), APIs requeridas (GET /api/facturacion/actos, POST /api/facturacion/crear, GET /api/facturacion/paquetes, POST /api/facturacion/bonos, GET /api/facturacion/iva), estructura de carpetas MERN (facturacion-seguros/facturacion/page.tsx, facturacion-seguros/facturacion/api/, facturacion-seguros/facturacion/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 29,
+      "paginaacrear": "Seguros/Mutuas",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Seguros/Mutuas del ERP dental. Esta página servirá como documentación completa del módulo de seguros/mutuas con baremos, autorizaciones y conciliación. Incluir diagramas de flujo de seguros, matrices de baremos, configuraciones de autorizaciones, documentación de componentes React (SegurosManager, BaremosSeguros, AutorizacionesSeguros, ConciliacionSeguros, MutuasManager), APIs requeridas (GET /api/seguros/baremos, POST /api/seguros/autorizaciones, GET /api/seguros/conciliacion, POST /api/seguros/registrar, GET /api/seguros/mutuas), estructura de carpetas MERN (facturacion-seguros/seguros-mutuas/page.tsx, facturacion-seguros/seguros-mutuas/api/, facturacion-seguros/seguros-mutuas/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 30,
+      "paginaacrear": "Cobros & Remesas",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Cobros & Remesas del ERP dental. Esta página servirá como documentación completa del módulo de cobros & remesas con SEPA, domiciliaciones y split pagos. Incluir diagramas de flujo de cobros, matrices de SEPA, configuraciones de domiciliaciones, documentación de componentes React (CobrosManager, SEPAManager, DomiciliacionesManager, SplitPagos, RemesasManager), APIs requeridas (GET /api/cobros/lista, POST /api/cobros/sepa, GET /api/cobros/domiciliaciones, POST /api/cobros/split, GET /api/cobros/remesas), estructura de carpetas MERN (facturacion-seguros/cobros-remesas/page.tsx, facturacion-seguros/cobros-remesas/api/, facturacion-seguros/cobros-remesas/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 31,
+      "paginaacrear": "Financiación al Paciente",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Financiación al Paciente del ERP dental. Esta página servirá como documentación completa del módulo de financiación al paciente con integraciones con financieras. Incluir diagramas de flujo de financiación, matrices de financieras, configuraciones de integraciones, documentación de componentes React (FinanciacionManager, IntegracionesFinancieras, CalculadoraFinanciacion, AprobacionFinanciacion, SeguimientoFinanciacion), APIs requeridas (GET /api/financiacion/opciones, POST /api/financiacion/solicitar, GET /api/financiacion/estado, POST /api/financiacion/aprobar, GET /api/financiacion/integraciones), estructura de carpetas MERN (facturacion-seguros/financiacion-paciente/page.tsx, facturacion-seguros/financiacion-paciente/api/, facturacion-seguros/financiacion-paciente/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 32,
+      "paginaacrear": "Deuda & Reclamaciones",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Deuda & Reclamaciones del ERP dental. Esta página servirá como documentación completa del módulo de deuda & reclamaciones con dunning y promesas de pago. Incluir diagramas de flujo de deuda, matrices de reclamaciones, configuraciones de dunning, documentación de componentes React (DeudaManager, ReclamacionesManager, DunningManager, PromesasPago, SeguimientoDeuda), APIs requeridas (GET /api/deuda/lista, POST /api/deuda/reclamar, GET /api/deuda/dunning, POST /api/deuda/promesa, GET /api/deuda/seguimiento), estructura de carpetas MERN (facturacion-seguros/deuda-reclamaciones/page.tsx, facturacion-seguros/deuda-reclamaciones/api/, facturacion-seguros/deuda-reclamaciones/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 33,
+      "paginaacrear": "Export Contable",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Export Contable del ERP dental. Esta página servirá como documentación completa del módulo de export contable con Sage/A3/Contaplus y centros de coste. Incluir diagramas de flujo de export contable, matrices de centros de coste, configuraciones de integraciones contables, documentación de componentes React (ExportContable, SageIntegration, A3Integration, ContaplusIntegration, CentrosCoste), APIs requeridas (GET /api/contable/export, POST /api/contable/sage, GET /api/contable/a3, POST /api/contable/contaplus, GET /api/contable/centros-coste), estructura de carpetas MERN (facturacion-seguros/export-contable/page.tsx, facturacion-seguros/export-contable/api/, facturacion-seguros/export-contable/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 34,
+      "paginaacrear": "Gestión de Roles Facturación",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Gestión de Roles Facturación del ERP dental. Esta página servirá como documentación completa del módulo de gestión de roles para Administración, Finanzas y Gerencia. Incluir diagramas de flujo de roles facturación, matrices de permisos por función, configuraciones de accesos, documentación de componentes React (RolesFacturacionManager, PermisosAdministracion, PermisosFinanzas, PermisosGerencia, AccesosFacturacion), APIs requeridas (GET /api/facturacion/roles, POST /api/facturacion/roles, GET /api/facturacion/permisos, POST /api/facturacion/permisos/asignar, GET /api/facturacion/auditoria), estructura de carpetas MERN (facturacion-seguros/gestion-roles-facturacion/page.tsx, facturacion-seguros/gestion-roles-facturacion/api/, facturacion-seguros/gestion-roles-facturacion/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 35,
+      "paginaacrear": "Inventario",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Inventario del ERP dental. Esta página servirá como documentación completa del módulo de inventario por sala/lote/caducidad, mínimo y reposición automática. Incluir diagramas de flujo de inventario, matrices de salas y lotes, configuraciones de caducidad, documentación de componentes React (InventarioManager, SalasInventario, LotesManager, CaducidadControl, ReposicionAutomatica), APIs requeridas (GET /api/inventario/lista, POST /api/inventario/registrar, GET /api/inventario/salas, GET /api/inventario/lotes, POST /api/inventario/reposicion), estructura de carpetas MERN (inventario-compras/inventario/page.tsx, inventario-compras/inventario/api/, inventario-compras/inventario/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 36,
+      "paginaacrear": "Compras & Proveedores",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Compras & Proveedores del ERP dental. Esta página servirá como documentación completa del módulo de compras & proveedores con pedidos, recepciones, facturas y precios. Incluir diagramas de flujo de compras, matrices de proveedores, configuraciones de pedidos, documentación de componentes React (ComprasManager, ProveedoresManager, PedidosManager, RecepcionesManager, FacturasCompras), APIs requeridas (GET /api/compras/lista, POST /api/compras/pedido, GET /api/compras/proveedores, POST /api/compras/recepcion, GET /api/compras/facturas), estructura de carpetas MERN (inventario-compras/compras-proveedores/page.tsx, inventario-compras/compras-proveedores/api/, inventario-compras/compras-proveedores/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 37,
+      "paginaacrear": "Trazabilidad de Material Estéril",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Trazabilidad de Material Estéril del ERP dental. Esta página servirá como documentación completa del módulo de trazabilidad de material estéril con ciclos, lotes, etiquetas y caja-procedimiento. Incluir diagramas de flujo de esterilización, matrices de ciclos, configuraciones de lotes, documentación de componentes React (TrazabilidadEsteril, CiclosEsteril, LotesEsteril, EtiquetasEsteril, CajaProcedimiento), APIs requeridas (GET /api/esterilizacion/ciclos, POST /api/esterilizacion/registrar, GET /api/esterilizacion/lotes, POST /api/esterilizacion/etiquetas, GET /api/esterilizacion/trazabilidad), estructura de carpetas MERN (inventario-compras/trazabilidad-esteril/page.tsx, inventario-compras/trazabilidad-esteril/api/, inventario-compras/trazabilidad-esteril/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 38,
+      "paginaacrear": "Residuos Sanitarios",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Residuos Sanitarios del ERP dental. Esta página servirá como documentación completa del módulo de residuos sanitarios con registro y retirada. Incluir diagramas de flujo de residuos, matrices de registro, configuraciones de retirada, documentación de componentes React (ResiduosManager, RegistroResiduos, RetiradaResiduos, ClasificacionResiduos, SeguimientoResiduos), APIs requeridas (GET /api/residuos/lista, POST /api/residuos/registrar, GET /api/residuos/retirada, POST /api/residuos/clasificar, GET /api/residuos/seguimiento), estructura de carpetas MERN (inventario-compras/residuos-sanitarios/page.tsx, inventario-compras/residuos-sanitarios/api/, inventario-compras/residuos-sanitarios/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 39,
+      "paginaacrear": "Mantenimiento de Equipos",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Mantenimiento de Equipos del ERP dental. Esta página servirá como documentación completa del módulo de mantenimiento de equipos con calibraciones, incidencias y revisiones. Incluir diagramas de flujo de mantenimiento, matrices de equipos, configuraciones de calibraciones, documentación de componentes React (MantenimientoEquipos, CalibracionesManager, IncidenciasEquipos, RevisionesEquipos, ProgramacionMantenimiento), APIs requeridas (GET /api/mantenimiento/equipos, POST /api/mantenimiento/calibracion, GET /api/mantenimiento/incidencias, POST /api/mantenimiento/revision, GET /api/mantenimiento/programacion), estructura de carpetas MERN (inventario-compras/mantenimiento-equipos/page.tsx, inventario-compras/mantenimiento-equipos/api/, inventario-compras/mantenimiento-equipos/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 40,
+      "paginaacrear": "Gestión de Roles Inventario",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Gestión de Roles Inventario del ERP dental. Esta página servirá como documentación completa del módulo de gestión de roles para Esterilización, Auxiliares, Administración y Calidad. Incluir diagramas de flujo de roles inventario, matrices de permisos por función, configuraciones de accesos, documentación de componentes React (RolesInventarioManager, PermisosEsterilizacion, PermisosAuxiliares, PermisosAdministracion, PermisosCalidad), APIs requeridas (GET /api/inventario/roles, POST /api/inventario/roles, GET /api/inventario/permisos, POST /api/inventario/permisos/asignar, GET /api/inventario/auditoria), estructura de carpetas MERN (inventario-compras/gestion-roles-inventario/page.tsx, inventario-compras/gestion-roles-inventario/api/, inventario-compras/gestion-roles-inventario/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 41,
+      "paginaacrear": "Órdenes a Laboratorio",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Órdenes a Laboratorio del ERP dental. Esta página servirá como documentación completa del módulo de órdenes a laboratorio interno/externo con estados y logística. Incluir diagramas de flujo de laboratorio, matrices de órdenes, configuraciones de estados, documentación de componentes React (OrdenesLaboratorio, LaboratorioInterno, LaboratorioExterno, EstadosOrdenes, LogisticaLaboratorio), APIs requeridas (GET /api/laboratorio/ordenes, POST /api/laboratorio/orden, GET /api/laboratorio/estados, POST /api/laboratorio/logistica, GET /api/laboratorio/historial), estructura de carpetas MERN (laboratorio-protesis/ordenes-laboratorio/page.tsx, laboratorio-protesis/ordenes-laboratorio/api/, laboratorio-protesis/ordenes-laboratorio/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 43,
+      "paginaacrear": "CAD/CAM & Impresión 3D",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de CAD/CAM & Impresión 3D del ERP dental. Esta página servirá como documentación completa del módulo de CAD/CAM & impresión 3D con ficheros y colas. Incluir diagramas de flujo de CAD/CAM, matrices de ficheros, configuraciones de colas, documentación de componentes React (CADCAMManager, Impresion3D, FicherosCAD, ColasImpresion, DisenoDigital), APIs requeridas (GET /api/cadcam/ficheros, POST /api/cadcam/subir, GET /api/cadcam/colas, POST /api/cadcam/impresion, GET /api/cadcam/estado), estructura de carpetas MERN (laboratorio-protesis/cadcam-impresion3d/page.tsx, laboratorio-protesis/cadcam-impresion3d/api/, laboratorio-protesis/cadcam-impresion3d/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 44,
+      "paginaacrear": "Gestión de Roles Laboratorio",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Gestión de Roles Laboratorio del ERP dental. Esta página servirá como documentación completa del módulo de gestión de roles para Dentistas, Auxiliares y Administración. Incluir diagramas de flujo de roles laboratorio, matrices de permisos por función, configuraciones de accesos, documentación de componentes React (RolesLaboratorioManager, PermisosDentistas, PermisosAuxiliares, PermisosAdministracion, AccesosLaboratorio), APIs requeridas (GET /api/laboratorio/roles, POST /api/laboratorio/roles, GET /api/laboratorio/permisos, POST /api/laboratorio/permisos/asignar, GET /api/laboratorio/auditoria), estructura de carpetas MERN (laboratorio-protesis/gestion-roles-laboratorio/page.tsx, laboratorio-protesis/gestion-roles-laboratorio/api/, laboratorio-protesis/gestion-roles-laboratorio/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 45,
+      "paginaacrear": "Embudo 360",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Embudo 360 del ERP dental. Esta página servirá como documentación completa del módulo de embudo 360 con lead → cita → diagnóstico → aceptación → inicio. Incluir diagramas de flujo de embudo, matrices de conversión, configuraciones de etapas, documentación de componentes React (Embudo360, LeadsManager, CitasEmbudo, DiagnosticoEmbudo, AceptacionEmbudo), APIs requeridas (GET /api/marketing/embudo, POST /api/marketing/lead, GET /api/marketing/conversion, POST /api/marketing/etapa, GET /api/marketing/analisis), estructura de carpetas MERN (marketing-ventas/embudo-360/page.tsx, marketing-ventas/embudo-360/api/, marketing-ventas/embudo-360/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 46,
+      "paginaacrear": "Campañas",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Campañas del ERP dental. Esta página servirá como documentación completa del módulo de campañas con email/SMS/WhatsApp/ads. Incluir diagramas de flujo de campañas, matrices de canales, configuraciones de mensajería, documentación de componentes React (CampañasManager, EmailCampañas, SMSCampañas, WhatsAppCampañas, AdsCampañas), APIs requeridas (GET /api/marketing/campañas, POST /api/marketing/campaña, GET /api/marketing/email, POST /api/marketing/sms, GET /api/marketing/whatsapp), estructura de carpetas MERN (marketing-ventas/campañas/page.tsx, marketing-ventas/campañas/api/, marketing-ventas/campañas/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 47,
+      "paginaacrear": "Segmentación por Tratamiento/Fecha",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Segmentación por Tratamiento/Fecha del ERP dental. Esta página servirá como documentación completa del módulo de segmentación por tratamiento/fecha. Incluir diagramas de flujo de segmentación, matrices de tratamientos, configuraciones de fechas, documentación de componentes React (SegmentacionManager, TratamientosSegmentacion, FechasSegmentacion, CriteriosSegmentacion, AnalisisSegmentacion), APIs requeridas (GET /api/marketing/segmentacion, POST /api/marketing/segmentar, GET /api/marketing/tratamientos, POST /api/marketing/criterios, GET /api/marketing/analisis), estructura de carpetas MERN (marketing-ventas/segmentacion-tratamiento-fecha/page.tsx, marketing-ventas/segmentacion-tratamiento-fecha/api/, marketing-ventas/segmentacion-tratamiento-fecha/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 48,
+      "paginaacrear": "Recall Preventivo",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Recall Preventivo del ERP dental. Esta página servirá como documentación completa del módulo de recall preventivo con higienes, orto, implantes y periodoncia. Incluir diagramas de flujo de recall, matrices de especialidades, configuraciones de recordatorios, documentación de componentes React (RecallPreventivo, HigienesRecall, OrtoRecall, ImplantesRecall, PeriodonciaRecall), APIs requeridas (GET /api/marketing/recall, POST /api/marketing/recordatorio, GET /api/marketing/higienes, POST /api/marketing/orto, GET /api/marketing/implantes), estructura de carpetas MERN (marketing-ventas/recall-preventivo/page.tsx, marketing-ventas/recall-preventivo/api/, marketing-ventas/recall-preventivo/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 49,
+      "paginaacrear": "NPS & Reseñas",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de NPS & Reseñas del ERP dental. Esta página servirá como documentación completa del módulo de NPS & reseñas con Google, cuestionarios y reputación. Incluir diagramas de flujo de NPS, matrices de reseñas, configuraciones de cuestionarios, documentación de componentes React (NPSManager, ReseñasManager, GoogleReseñas, CuestionariosNPS, ReputacionManager), APIs requeridas (GET /api/marketing/nps, POST /api/marketing/cuestionario, GET /api/marketing/reseñas, POST /api/marketing/google, GET /api/marketing/reputacion), estructura de carpetas MERN (marketing-ventas/nps-reseñas/page.tsx, marketing-ventas/nps-reseñas/api/, marketing-ventas/nps-reseñas/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 50,
+      "paginaacrear": "Programas",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Programas del ERP dental. Esta página servirá como documentación completa del módulo de programas con loyalty, referidos y packs/promos. Incluir diagramas de flujo de programas, matrices de loyalty, configuraciones de referidos, documentación de componentes React (ProgramasManager, LoyaltyManager, ReferidosManager, PacksPromos, BeneficiosManager), APIs requeridas (GET /api/marketing/programas, POST /api/marketing/loyalty, GET /api/marketing/referidos, POST /api/marketing/packs, GET /api/marketing/promos), estructura de carpetas MERN (marketing-ventas/programas/page.tsx, marketing-ventas/programas/api/, marketing-ventas/programas/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 51,
+      "paginaacrear": "Gestión de Roles Marketing",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Gestión de Roles Marketing del ERP dental. Esta página servirá como documentación completa del módulo de gestión de roles para Marketing, Atención al Paciente y Gerencia. Incluir diagramas de flujo de roles marketing, matrices de permisos por función, configuraciones de accesos, documentación de componentes React (RolesMarketingManager, PermisosMarketing, PermisosAtencionPaciente, PermisosGerencia, AccesosMarketing), APIs requeridas (GET /api/marketing/roles, POST /api/marketing/roles, GET /api/marketing/permisos, POST /api/marketing/permisos/asignar, GET /api/marketing/auditoria), estructura de carpetas MERN (marketing-ventas/gestion-roles-marketing/page.tsx, marketing-ventas/gestion-roles-marketing/api/, marketing-ventas/gestion-roles-marketing/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 52,
+      "paginaacrear": "Mensajería",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Mensajería del ERP dental. Esta página servirá como documentación completa del módulo de mensajería con WhatsApp Business API, SMS, email y chat web. Incluir diagramas de flujo de mensajería, matrices de canales, configuraciones de APIs, documentación de componentes React (MensajeriaManager, WhatsAppAPI, SMSManager, EmailManager, ChatWeb), APIs requeridas (GET /api/comunicacion/mensajeria, POST /api/comunicacion/whatsapp, GET /api/comunicacion/sms, POST /api/comunicacion/email, GET /api/comunicacion/chat), estructura de carpetas MERN (omnicanal-comunicacion/mensajeria/page.tsx, omnicanal-comunicacion/mensajeria/api/, omnicanal-comunicacion/mensajeria/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 53,
+      "paginaacrear": "Flujos Automáticos",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Flujos Automáticos del ERP dental. Esta página servirá como documentación completa del módulo de flujos automáticos con pre/post-operatorio, ausencias y presupuesto sin aceptar. Incluir diagramas de flujo de automatización, matrices de flujos, configuraciones de triggers, documentación de componentes React (FlujosAutomaticos, PreOperatorio, PostOperatorio, AusenciasAutomaticas, PresupuestoPendiente), APIs requeridas (GET /api/comunicacion/flujos, POST /api/comunicacion/trigger, GET /api/comunicacion/pre-operatorio, POST /api/comunicacion/post-operatorio, GET /api/comunicacion/ausencias), estructura de carpetas MERN (omnicanal-comunicacion/flujos-automaticos/page.tsx, omnicanal-comunicacion/flujos-automaticos/api/, omnicanal-comunicacion/flujos-automaticos/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 54,
+      "paginaacrear": "Plantillas & Campañas",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Plantillas & Campañas del ERP dental. Esta página servirá como documentación completa del módulo de plantillas & campañas con variables clínicas. Incluir diagramas de flujo de plantillas, matrices de variables, configuraciones de campañas, documentación de componentes React (PlantillasManager, CampañasPlantillas, VariablesClinicas, EditorPlantillas, GestorCampañas), APIs requeridas (GET /api/comunicacion/plantillas, POST /api/comunicacion/plantilla, GET /api/comunicacion/variables, POST /api/comunicacion/campaña, GET /api/comunicacion/editor), estructura de carpetas MERN (omnicanal-comunicacion/plantillas-campañas/page.tsx, omnicanal-comunicacion/plantillas-campañas/api/, omnicanal-comunicacion/plantillas-campañas/components/) y documentación de procesos de la sección."
+    },
+    {
+      "id": 55,
+      "paginaacrear": "Gestión de Roles Comunicación",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la subpágina de Gestión de Roles Comunicación del ERP dental. Esta página servirá como documentación completa del módulo de gestión de roles para Marketing, Recepción y Coordinación. Incluir diagramas de flujo de roles comunicación, matrices de permisos por función, configuraciones de accesos, documentación de componentes React (RolesComunicacionManager, PermisosMarketing, PermisosRecepcion, PermisosCoordinacion, AccesosComunicacion), APIs requeridas (GET /api/comunicacion/roles, POST /api/comunicacion/roles, GET /api/comunicacion/permisos, POST /api/comunicacion/permisos/asignar, GET /api/comunicacion/auditoria), estructura de carpetas MERN (omnicanal-comunicacion/gestion-roles-comunicacion/page.tsx, omnicanal-comunicacion/gestion-roles-comunicacion/api/, omnicanal-comunicacion/gestion-roles-comunicacion/components/) y documentación de procesos de la sección."
+    }
+  ],
+  "configuracion": {
+    "total_ejemplos": 42,
+    "categorias": ["Operación Diaria", "Paciente 360", "Historia Clínica", "Diagnóstico Imagen", "Planes Tratamiento", "Facturación Seguros", "Inventario Compras", "Laboratorio Prótesis", "Marketing Ventas", "Omnicanal Comunicación"],
+    "uso": "Subpáginas del ERP Dental - Documentación completa para implementación en stack MERN con estructura de carpetas (page, api, components)"
+  }
+}

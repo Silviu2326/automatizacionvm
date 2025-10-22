@@ -1,0 +1,135 @@
+{
+  "ejemplos": [
+    {
+      "id": 1,
+      "paginaacrear": "Operación diaria (Front Desk & Agenda)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Operación diaria (Front Desk & Agenda) del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: agenda inteligente (por profesional/sillón/centro, listas de espera, overbooking controlado, huecos sugeridos), recepción & check-in (kiosko/tablet, firma de consentimientos, cobro rápido), recordatorios & confirmaciones (SMS/WhatsApp/email, reprogramaciones, no-shows), planificación de recursos (sillones, salas, equipo RX, duración por procedimiento), contact center (CTI/telefonía, pop-ups con ficha paciente, click-to-call) y gestión de roles (Recepción, Coordinador, Gerencia). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de operación diaria, matrices de recursos, configuraciones de agenda y documentación de procesos de la sección."
+    },
+    {
+      "id": 2,
+      "paginaacrear": "Paciente 360 (CRM clínico)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Paciente 360 (CRM clínico) del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: ficha maestra (datos, alertas, alergias, hábitos, seguros), documentos & firmas (consentimientos RGPD/específicos, recetas, adjuntos), timeline clínico-económico (actos, presupuestos, pagos, comunicaciones), tareas & seguimiento (recordatorios internos, tareas por profesional) y gestión de roles (Todos con permisos según RBAC). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo del CRM clínico, matrices de permisos, configuraciones de ficha paciente y documentación de procesos de la sección."
+    },
+    {
+      "id": 3,
+      "paginaacrear": "Historia Clínica & Especialidades",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Historia Clínica & Especialidades del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: HC estructurada (SOAP, plantillas por especialidad, dictado por voz), odontograma 2D/3D (por pieza/superficie, evolución, alertas), periodontograma (bolsas, sangrado, movilidad, placa; comparativas), especialidades (odontología general, ortodoncia, implantología & cirugía, endodoncia, periodoncia, prótesis, odontopediatría, estética, oclusión & ATM, sueño), alertas clínicas & contraindicaciones y gestión de roles (Dentistas, Higienistas, Auxiliares). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de historia clínica, matrices de especialidades, configuraciones de odontograma y documentación de procesos de la sección."
+    },
+    {
+      "id": 4,
+      "paginaacrear": "Diagnóstico por Imagen & Multimedia",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Diagnóstico por Imagen & Multimedia del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: DICOM/PACS (RX, CBCT; visor, mediciones, anotaciones), integración HW (sensores, cámaras intraorales), galería multimedia (etiquetado, antes/después, comparación), AI asistida (opcional/terceros) para apoyo diagnóstico (caries, niveles óseos) vía integraciones y gestión de roles (Dentistas, Radiología, Auxiliares). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de diagnóstico por imagen, matrices de integración HW, configuraciones de DICOM y documentación de procesos de la sección."
+    },
+    {
+      "id": 5,
+      "paginaacrear": "Planes de Tratamiento & Presupuestos",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Planes de Tratamiento & Presupuestos del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: planificación (secuencias, dependencias, tiempos, recursos), presupuestos multi-opción (good/better/best, aceptación digital), consentimientos por tratamiento y material educativo, conversión & ganancia esperada (probabilidades, margen) y gestión de roles (Dentistas, Coordinador de tratamientos, Recepción). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de planes de tratamiento, matrices de presupuestos, configuraciones de conversión y documentación de procesos de la sección."
+    },
+    {
+      "id": 6,
+      "paginaacrear": "Facturación, Seguros & Financiación",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Facturación, Seguros & Financiación del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: facturación (actos, paquetes, bonos, IVA sanitario, TPV/links), seguros/mutuas (baremos, autorizaciones, conciliación), cobros & remesas (SEPA, domiciliaciones, split pagos), financiación al paciente (integraciones con financieras), deuda & reclamaciones (dunning, promesas de pago), export contable (Sage/A3/Contaplus), centros de coste y gestión de roles (Administración, Finanzas, Gerencia). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de facturación, matrices de seguros, configuraciones de cobros y documentación de procesos de la sección."
+    },
+    {
+      "id": 7,
+      "paginaacrear": "Inventario, Compras & Esterilización",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Inventario, Compras & Esterilización del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: inventario (por sala/lote/caducidad, mínimo, reposición automática), compras & proveedores (pedidos, recepciones, facturas, precios), trazabilidad de material estéril (ciclos, lotes, etiquetas, caja-procedimiento), residuos sanitarios (registro, retirada), mantenimiento de equipos (calibraciones, incidencias, revisiones) y gestión de roles (Esterilización, Auxiliares, Administración, Calidad). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de inventario, matrices de esterilización, configuraciones de compras y documentación de procesos de la sección."
+    },
+    {
+      "id": 8,
+      "paginaacrear": "Laboratorio & Prótesis",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Laboratorio & Prótesis del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: órdenes a laboratorio (interno/externo, estados, logística), costes & refacturación (margen por caso), CAD/CAM & impresión 3D (ficheros, colas) y gestión de roles (Dentistas, Auxiliares, Administración). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de laboratorio, matrices de costes, configuraciones de CAD/CAM y documentación de procesos de la sección."
+    },
+    {
+      "id": 9,
+      "paginaacrear": "Marketing, Ventas & Experiencia del Paciente",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Marketing, Ventas & Experiencia del Paciente del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: embudo 360 (lead → cita → diagnóstico → aceptación → inicio), campañas (email/SMS/WhatsApp/ads), segmentación por tratamiento/fecha, recall preventivo (higienes, orto, implantes, periodoncia), NPS & reseñas (Google, cuestionarios, reputación), programas (loyalty, referidos, packs/promos) y gestión de roles (Marketing, Atención al Paciente, Gerencia). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de marketing, matrices de campañas, configuraciones de embudo y documentación de procesos de la sección."
+    },
+    {
+      "id": 10,
+      "paginaacrear": "Omnicanal & Comunicación",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Omnicanal & Comunicación del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: mensajería (WhatsApp Business API, SMS, email, chat web), flujos automáticos (pre/post-operatorio, ausencias, presupuesto sin aceptar), plantillas & campañas con variables clínicas y gestión de roles (Marketing, Recepción, Coordinación). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de comunicación, matrices de canales, configuraciones de flujos automáticos y documentación de procesos de la sección."
+    },
+    {
+      "id": 11,
+      "paginaacrear": "Portal/App del Paciente",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Portal/App del Paciente del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: citas online (con reglas de agenda), pagos y financiación, presupuestos y consentimientos a firmar, documentos & resultados, chat y videoconsulta, recordatorios, preparación de cita y cuidados post-op y gestión de roles (Paciente auto-servicio, Recepción). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo del portal del paciente, matrices de funcionalidades, configuraciones de citas online y documentación de procesos de la sección."
+    },
+    {
+      "id": 12,
+      "paginaacrear": "RR. HH., Turnos & Productividad",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de RR. HH., Turnos & Productividad del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: horarios/turnos (vacaciones, sustituciones, bloqueo de agenda), objetivos & productividades (por profesional/sillón), retribución variable (comisiones por acto/producción) y gestión de roles (Gerencia, RR. HH.). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de RR. HH., matrices de productividad, configuraciones de turnos y documentación de procesos de la sección."
+    },
+    {
+      "id": 13,
+      "paginaacrear": "Calidad, Compliance & Auditoría",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Calidad, Compliance & Auditoría del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: RGPD/LOPDGDD (consentimientos, derechos ARCO, retención), historial de cambios (audit log clínico/financiero), protocolos & checklists (esterilización, cirugía, incidentes), ensayos/investigación (opcional: consentimiento específico, anonimización) y gestión de roles (Compliance, Gerencia, Calidad). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de compliance, matrices de auditoría, configuraciones de RGPD y documentación de procesos de la sección."
+    },
+    {
+      "id": 14,
+      "paginaacrear": "Analítica, BI & Data",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Analítica, BI & Data del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: KPIs operativos (ocupación, no-show, ticket medio, aceptación), KPIs clínicos (tasas por especialidad, revisiones, complicaciones), KPIs económicos (margen/tratamiento, ARPU, LTV, CAC, cash-flow), cuadros por rol (propietario, clínica, especialista, marketing), exportador & cubos (CSV, Excel, conectores BI) y gestión de roles (Gerencia, Finanzas, Marketing, Jefes de área). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de analítica, matrices de KPIs, configuraciones de BI y documentación de procesos de la sección."
+    },
+    {
+      "id": 15,
+      "paginaacrear": "Automatizaciones & Reglas (RPA light)",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Automatizaciones & Reglas (RPA light) del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: reglas tipo 'si X entonces Y' (no-show → recontacto; implante → revisión), workflows por especialidad (orto, implanto, perio), tareas automáticas internas (asignación, vencimientos) y gestión de roles (Todos según permisos, Operaciones). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de automatizaciones, matrices de reglas, configuraciones de workflows y documentación de procesos de la sección."
+    },
+    {
+      "id": 16,
+      "paginaacrear": "Integraciones & API",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Integraciones & API del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: PACS/DICOM, e-prescripción (según país), pasarelas de pago, financieras, contabilidad, WhatsApp, SMS, email transaccional, API pública & Webhooks (SDKs, sandbox), importadores & migraciones (de Gesden/Clinicare u otros) y gestión de roles (IT/Admin, Partners). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de integraciones, matrices de APIs, configuraciones de webhooks y documentación de procesos de la sección."
+    },
+    {
+      "id": 17,
+      "paginaacrear": "Multi-sede, Franquicia & Enterprise",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Multi-sede, Franquicia & Enterprise del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: catálogo & tarifas por sede, políticas locales, roles cross-sede, transferencia de pacientes, reporting consolidado & benchmarking, acuerdos de franquicia (royalties, estándares) y gestión de roles (Propietario, Dirección regional, Finanzas). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo multi-sede, matrices de franquicia, configuraciones de reporting y documentación de procesos de la sección."
+    },
+    {
+      "id": 18,
+      "paginaacrear": "Infraestructura, Seguridad & IT",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Infraestructura, Seguridad & IT del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: usuarios, roles y permisos (RBAC/ABAC), MFA, SSO, copias de seguridad & DRP (RPO/RTO, cifrado), monitorización & logs (rendimiento, errores, SIEM), cumplimiento técnico (DPA, BAA si aplica, cifrado en reposo/tránsito), accesibilidad, multi-idioma, multi-moneda, on-prem / Cloud / Híbrido (según cliente) y gestión de roles (IT/Admin, Compliance). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de infraestructura, matrices de seguridad, configuraciones de DRP y documentación de procesos de la sección."
+    },
+    {
+      "id": 19,
+      "paginaacrear": "Formación, SOPs & Conocimiento",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Formación, SOPs & Conocimiento del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: academy (cursos, vídeos, certificaciones), biblioteca clínica (protocolos, guías, plantillas), centro de ayuda & tours interactivos (onboarding por rol) y gestión de roles (Todos según rol). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de formación, matrices de conocimiento, configuraciones de academy y documentación de procesos de la sección."
+    },
+    {
+      "id": 20,
+      "paginaacrear": "Soporte & Éxito del Cliente",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Soporte & Éxito del Cliente del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: tickets & SLAs, encuestas de satisfacción, health-score por cuenta, riesgos de churn, playbooks de éxito y gestión de roles (Customer Success, Soporte, Gerencia). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de soporte, matrices de éxito del cliente, configuraciones de SLAs y documentación de procesos de la sección."
+    },
+    {
+      "id": 21,
+      "paginaacrear": "Configuración & Parametrización fina",
+      "paginaprincipal": "https://www.notion.so/software-dental-29106f76bed48087b33dc97232100566?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Configuración & Parametrización fina del ERP dental. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: catálogo de tratamientos (nomenclatura, tiempos, precios, combos), consentimientos & plantillas (por especialidad), reglas de agenda, permisos por dato, vistas guardadas, campos personalizados (clínicos y administrativos) y gestión de roles (Admin de clínica/IT). NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de configuración, matrices de parametrización, configuraciones de catálogo y documentación de procesos de la sección."
+    }
+  ],
+  "configuracion": {
+    "total_ejemplos": 21,
+    "categorias": ["Operación Diaria", "Paciente 360", "Historia Clínica", "Diagnóstico Imagen", "Planes Tratamiento", "Facturación Seguros", "Inventario Esterilización", "Laboratorio Prótesis", "Marketing Ventas", "Omnicanal Comunicación", "Portal Paciente", "RRHH Turnos", "Calidad Compliance", "Analítica BI", "Automatizaciones Reglas", "Integraciones API", "Multi-sede Franquicia", "Infraestructura Seguridad", "Formación SOPs", "Soporte Éxito", "Configuración Parametrización"],
+    "uso": "Módulos del ERP Dental - Crear páginas de documentación para sistema ERP completo de clínicas dentales"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "nombre": "Creador de Páginas Notion",
+  "version": "1.0",
+  "descripcion": "Prompts especializados para crear páginas en Notion usando la API",
+  "prompts": [
+    {
+      "id": "notion_page_creation",
+      "nombre": "Creación de Página en Notion",
+      "prompt": "Crea usando la api de notion esta pagina (paginaacrear) como subpagina de esta pagina (paginaprincipal) ademas ten en cuenta esto (detalles)",
+      "contexto": "Creación de páginas en Notion usando API"
+    }
+  ],
+  "configuracion": {
+    "plataforma": "Notion API",
+    "lenguaje": "Python/JavaScript",
+    "integraciones": "Notion API v1",
+    "placeholders": ["paginaacrear", "paginaprincipal", "detalles"]
+  }
+}

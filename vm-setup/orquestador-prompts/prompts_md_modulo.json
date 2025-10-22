@@ -1,0 +1,12 @@
+{
+  "prompt": "Crea este módulo ({{modulo}}) en la carpeta features, revisa este MD ({{archivo_md}}) y créale su propia carpeta",
+  "descripcion": "Prompt para convertir Markdown a módulos de React",
+  "tipo": "md_modulo",
+  "configuracion": {
+    "tiempo_espera": 30,
+    "reintentos": 2,
+    "formato_salida": "modulo_react"
+  }
+}
+
+

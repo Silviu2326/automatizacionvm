@@ -1,0 +1,18 @@
+{
+  "nombre": "Diseñador de Bases de Datos",
+  "version": "1.0",
+  "descripcion": "Prompts para crear bases de datos en Notion",
+  "prompts": [
+    {
+      "id": "database_creation",
+      "nombre": "Creación de Base de Datos",
+      "prompt": "Crea una base de datos en Notion con:\n\n- Propiedades relevantes para el tipo de contenido\n- Tipos de datos apropiados (texto, número, fecha, selección, etc.)\n- Fórmulas cuando sea necesario\n- Relaciones con otras bases de datos si aplica\n- Vistas diferentes (tabla, kanban, calendario, galería)\n- Filtros útiles para organizar la información\n- Agrupaciones lógicas\n- Ordenamiento por criterios relevantes\n\nAsegúrate de que la base de datos sea funcional y fácil de usar.",
+      "contexto": "Creación de bases de datos en Notion"
+    }
+  ],
+  "configuracion": {
+    "plataforma": "Notion",
+    "relaciones": "Enlaces entre bases de datos",
+    "vistas": "Tabla, Kanban, Calendario, Galería"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "ejemplos": [
+    {
+      "id": 1,
+      "paginaacrear": "Catálogo de Módulos / App Store",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Catálogo de Módulos / App Store del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: instalación 1-click, licencias, dependencias, gestión de módulos, marketplace de extensiones y sistema de actualizaciones. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de arquitectura del marketplace, flujos de instalación, matrices de dependencias y documentación técnica detallada de la sección."
+    },
+    {
+      "id": 2,
+      "paginaacrear": "Facturación del SaaS",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Facturación del SaaS del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: planes de suscripción, metering de uso, facturación basada en uso, gestión de cupones, dunning management, proyecciones de ingresos y análisis de churn. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de facturación, matrices de precios, configuraciones de metering y documentación de procesos de la sección."
+    },
+    {
+      "id": 3,
+      "paginaacrear": "Localización & Fiscalidad Base",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Localización & Fiscalidad Base del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: configuración España (ES), Portugal (PT), Francia (FR), Italia (IT), Alemania (DE), gestión de impuestos por país, series de facturación, IVA/IGIC, reportes fiscales, compliance normativo y configuración de monedas. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de configuración fiscal, matrices de impuestos por país, flujos de reportes y documentación de compliance de la sección."
+    },
+    {
+      "id": 4,
+      "paginaacrear": "Seguridad & Gobierno",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Seguridad & Gobierno del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: cifrado de datos, DLP (Data Loss Prevention), gestión de secretos, backups automáticos, DR/HA (Disaster Recovery/High Availability), rotación de claves, políticas de seguridad, auditoría de accesos y compliance de seguridad. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de arquitectura de seguridad, flujos de cifrado, matrices de políticas y documentación de compliance de la sección."
+    },
+    {
+      "id": 5,
+      "paginaacrear": "Internacionalización",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Internacionalización del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: i18n (internacionalización), gestión de zonas horarias, formatos de fecha y números, traducciones automáticas, configuración de idiomas, localización de contenido y adaptación cultural. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de localización, matrices de idiomas soportados, configuraciones de zonas horarias y documentación de procesos de la sección."
+    },
+    {
+      "id": 6,
+      "paginaacrear": "Contabilidad",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Contabilidad del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: libro mayor, diarios contables, conciliación bancaria, cierre contable, asientos automáticos, balances, PGC (Plan General Contable), análisis de cuentas y reportes contables. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo contable, matrices de cuentas, configuraciones de diarios y documentación de procesos de la sección."
+    },
+    {
+      "id": 7,
+      "paginaacrear": "Cuentas a Cobrar/Pagar",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Cuentas a Cobrar/Pagar del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: gestión de dunning, prorratas de gastos, anticipos de clientes/proveedores, gestión de vencimientos, análisis de morosidad, conciliación de facturas, gestión de descuentos y reportes de tesorería. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de cobros/pagos, matrices de vencimientos, configuraciones de dunning y documentación de procesos de la sección."
+    },
+    {
+      "id": 8,
+      "paginaacrear": "Tesorería & Bancos",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Tesorería & Bancos del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: cash-pooling, previsión de tesorería, gestión de bancos, conciliación bancaria, transferencias automáticas, análisis de flujos de caja, gestión de créditos y reportes de tesorería. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de tesorería, matrices de bancos, configuraciones de cash-pooling y documentación de procesos de la sección."
+    },
+    {
+      "id": 9,
+      "paginaacrear": "Impuestos & Localizaciones",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Impuestos & Localizaciones del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: SII (Suministro Inmediato de Información) España, Intrastat, VIES, retenciones, IVA, IRPF, impuestos especiales, declaraciones automáticas y compliance fiscal. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo fiscal, matrices de impuestos, configuraciones de SII y documentación de compliance de la sección."
+    },
+    {
+      "id": 10,
+      "paginaacrear": "Presupuestos & Costes",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Presupuestos & Costes del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: centros de coste, activity-based costing, presupuestos anuales, análisis de desviaciones, costes estándar, imputación de gastos, análisis de rentabilidad y reportes de costes. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de costes, matrices de centros, configuraciones de presupuestos y documentación de procesos de la sección."
+    },
+    {
+      "id": 11,
+      "paginaacrear": "Activos Fijos",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Activos Fijos del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: amortización automática, revalorización de activos, gestión de bajas, transferencias, inventario físico, análisis de depreciación, mantenimiento preventivo y reportes de activos. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de activos, matrices de amortización, configuraciones de revalorización y documentación de procesos de la sección."
+    },
+    {
+      "id": 12,
+      "paginaacrear": "Intercompany",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Intercompany del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: eliminaciones intercompany, transfer pricing, consolidación automática, gestión de transacciones internas, análisis de márgenes, documentación de precios, compliance fiscal internacional y reportes consolidados. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo intercompany, matrices de eliminaciones, configuraciones de transfer pricing y documentación de procesos de la sección."
+    },
+    {
+      "id": 13,
+      "paginaacrear": "CRM 360",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de CRM 360 del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: gestión de leads, oportunidades de venta, actividades comerciales, pipeline de ventas, seguimiento de clientes, análisis de conversión, automatización de marketing, reportes comerciales y dashboards de ventas. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo comercial, matrices de leads, configuraciones de pipeline y documentación de procesos de la sección."
+    },
+    {
+      "id": 14,
+      "paginaacrear": "Pedidos & Ofertas",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Pedidos & Ofertas del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: pricing rules, combos de productos, gestión de ofertas, configuración de precios, descuentos automáticos, análisis de márgenes, gestión de catálogos, validación de stock y reportes de ventas. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de pedidos, matrices de precios, configuraciones de combos y documentación de procesos de la sección."
+    },
+    {
+      "id": 15,
+      "paginaacrear": "Facturación",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Facturación del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: proformas, abonos, facturas rectificativas, gestión de vencimientos, series de facturación, numeración automática, envío automático, integración fiscal y reportes de facturación. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de facturación, matrices de series, configuraciones de abonos y documentación de procesos de la sección."
+    },
+    {
+      "id": 16,
+      "paginaacrear": "POS & Retail",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de POS & Retail del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: gestión de tickets, devoluciones, cajas registradoras, terminales POS, sincronización de ventas, gestión de inventario en tienda, reportes de caja y análisis de ventas por punto de venta. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de ventas, matrices de terminales, configuraciones de cajas y documentación de procesos de la sección."
+    },
+    {
+      "id": 17,
+      "paginaacrear": "Fidelización",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Fidelización del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: sistema de puntos, niveles de fidelidad (tiers), recompensas automáticas, campañas de fidelización, análisis de comportamiento, gamificación, programas de referidos y reportes de fidelización. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de fidelización, matrices de puntos, configuraciones de tiers y documentación de procesos de la sección."
+    },
+    {
+      "id": 18,
+      "paginaacrear": "CPQ",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de CPQ (Configure, Price, Quote) del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: configurador de productos, reglas de precios, validación de configuraciones, generación automática de ofertas, integración con catálogos, análisis de viabilidad y reportes de configuración. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de configuración, matrices de reglas, configuraciones de productos y documentación de procesos de la sección."
+    },
+    {
+      "id": 19,
+      "paginaacrear": "Atención al Cliente",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Atención al Cliente del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: gestión de casos, SLA (Service Level Agreement), knowledge base, tickets de soporte, escalación automática, análisis de satisfacción, chatbots, integración con CRM y reportes de atención. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de atención, matrices de SLA, configuraciones de escalación y documentación de procesos de la sección."
+    },
+    {
+      "id": 20,
+      "paginaacrear": "Solicitudes & Órdenes",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Solicitudes & Órdenes del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: 3-way match (pedido, recepción, factura), gestión de solicitudes, aprobaciones automáticas, workflow de órdenes, validación de presupuestos, seguimiento de entregas, análisis de cumplimiento y reportes de compras. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de compras, matrices de aprobaciones, configuraciones de 3-way match y documentación de procesos de la sección."
+    },
+    {
+      "id": 21,
+      "paginaacrear": "Evaluación Proveedores",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Evaluación Proveedores del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: scorecards de proveedores, evaluación de rendimiento, análisis de calidad, gestión de incidencias, auditorías de proveedores, certificaciones, análisis de riesgos, benchmarking y reportes de evaluación. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de evaluación, matrices de scorecards, configuraciones de criterios y documentación de procesos de la sección."
+    },
+    {
+      "id": 22,
+      "paginaacrear": "Contratos & Catálogos",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Contratos & Catálogos del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: acuerdos marco, gestión de contratos, catálogos de productos, precios negociados, términos y condiciones, renovaciones automáticas, análisis de cumplimiento, gestión de SLA y reportes contractuales. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo contractual, matrices de acuerdos, configuraciones de catálogos y documentación de procesos de la sección."
+    },
+    {
+      "id": 23,
+      "paginaacrear": "Portal Proveedor",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Portal Proveedor del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: ASN (Advanced Shipping Notice), gestión de incidencias, portal de autoservicio, comunicación bidireccional, seguimiento de entregas, gestión de documentos, facturación electrónica, análisis de rendimiento y reportes de proveedores. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo del portal, matrices de comunicación, configuraciones de ASN y documentación de procesos de la sección."
+    },
+    {
+      "id": 24,
+      "paginaacrear": "Gastos & Reembolsos",
+      "paginaprincipal": "https://www.notion.so/ERP-COMPLETO-29106f76bed4804b9b8bc0d232c1a9c5?showMoveTo=true&saveParent=true",
+      "detalles": "Crear una página de documentación para la sección de Gastos & Reembolsos del ERP. Esta página servirá como documentación principal del módulo y mencionará que en el futuro tendrá subpáginas para: OCR de tickets, políticas de gastos, aprobaciones automáticas, categorización de gastos, límites por categoría, reembolsos automáticos, análisis de patrones, integración con tarjetas corporativas y reportes de gastos. NO crear subpáginas, solo documentar que estas existirán. Incluir diagramas de flujo de gastos, matrices de políticas, configuraciones de OCR y documentación de procesos de la sección."
+    }
+  ],
+  "configuracion": {
+    "total_ejemplos": 23,
+    "categorias": ["Catálogo de Módulos", "Facturación SaaS", "Localización Fiscal", "Seguridad Gobierno", "Internacionalización", "Contabilidad", "Cuentas a Cobrar/Pagar", "Tesorería Bancos", "Impuestos Localizaciones", "Presupuestos Costes", "Activos Fijos", "Intercompany", "CRM 360", "Pedidos Ofertas", "Facturación", "POS Retail", "Fidelización", "CPQ", "Atención Cliente", "Solicitudes Órdenes", "Evaluación Proveedores", "Contratos Catálogos", "Portal Proveedor", "Gastos Reembolsos"],
+    "uso": "Módulos del ERP - Crear páginas de documentación para sistema ERP completo (Parte 2)"
+  }
+}

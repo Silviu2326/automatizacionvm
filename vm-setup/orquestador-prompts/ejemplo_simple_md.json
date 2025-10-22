@@ -1,0 +1,70 @@
+{
+  "nombre": "Ejemplo Simple MD → Módulo",
+  "descripcion": "Archivo simple para probar el modo MD → Módulo",
+  "tipo": "md_modulo",
+  "contenido_markdown": "# Guía de Usuario\n\n## Introducción\n\nEsta es una guía básica para usar el sistema.\n\n## Pasos Básicos\n\n1. **Iniciar sesión**\n2. **Seleccionar módulo**\n3. **Ejecutar tarea**\n4. **Guardar cambios**\n\n## Configuración\n\n### Variables importantes:\n- `API_URL`: URL de la API\n- `TIMEOUT`: Tiempo de espera\n\n## Ejemplo de código:\n\n```javascript\nfunction iniciar() {\n  console.log('Sistema iniciado');\n}\n```\n\n## Conclusión\n\nSistema listo para usar.",
+  "configuracion_modulo": {
+    "estructura": {
+      "titulo_principal": "Guía de Usuario",
+      "secciones": [
+        {
+          "nombre": "Introducción",
+          "tipo": "texto",
+          "contenido": "Esta es una guía básica para usar el sistema."
+        },
+        {
+          "nombre": "Pasos Básicos",
+          "tipo": "lista_numerada",
+          "items": [
+            "Iniciar sesión",
+            "Seleccionar módulo",
+            "Ejecutar tarea",
+            "Guardar cambios"
+          ]
+        },
+        {
+          "nombre": "Configuración",
+          "tipo": "mixto",
+          "subsecciones": [
+            {
+              "nombre": "Variables importantes",
+              "tipo": "lista",
+              "items": [
+                "API_URL: URL de la API",
+                "TIMEOUT: Tiempo de espera"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Ejemplo de código",
+          "tipo": "codigo",
+          "lenguaje": "javascript",
+          "contenido": "function iniciar() {\n  console.log('Sistema iniciado');\n}"
+        },
+        {
+          "nombre": "Conclusión",
+          "tipo": "texto",
+          "contenido": "Sistema listo para usar."
+        }
+      ]
+    },
+    "metadatos": {
+      "autor": "Sistema Orquestador",
+      "fecha_creacion": "2025-10-21",
+      "version": "1.0.0",
+      "tags": ["guia", "usuario", "basico"],
+      "categoria": "documentacion"
+    },
+    "configuracion_procesamiento": {
+      "tiempo_espera": 30,
+      "modo": "secuencial",
+      "reintentos": 2,
+      "formato_salida": "modulo_estructurado",
+      "incluir_metadatos": true,
+      "validar_estructura": true
+    }
+  }
+}
+
+
