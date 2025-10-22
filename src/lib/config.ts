@@ -7,6 +7,14 @@ export const config = {
   apiUrl: import.meta.env.VITE_API_URL || 'http://localhost:3001',
   wsUrl: import.meta.env.VITE_WS_URL || 'ws://localhost:3001',
   
+  // Debug: mostrar variables de entorno en consola
+  debug: {
+    envApiUrl: import.meta.env.VITE_API_URL,
+    envWsUrl: import.meta.env.VITE_WS_URL,
+    isProduction: import.meta.env.PROD,
+    isDevelopment: import.meta.env.DEV
+  },
+  
   // Variables de Notion
   notionToken: import.meta.env.VITE_NOTION_TOKEN,
   notionParentId: import.meta.env.VITE_NOTION_PARENT_ID,

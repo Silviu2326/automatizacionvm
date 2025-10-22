@@ -8,6 +8,7 @@ import { Button } from '../../../components/ui/button';
 import { Card } from '../../../components/ui/card';
 import { Badge } from '../../../components/ui/badge';
 import { useOrquestadorHealth } from '../../../lib/orquestador-hooks';
+import { config } from '../../../lib/config';
 
 interface SavedConfigDisplayProps {
   onStart: () => void;
@@ -73,7 +74,7 @@ export const SavedConfigDisplay: React.FC<SavedConfigDisplayProps> = ({
     const fetchSavedConfig = async () => {
       try {
         setLoading(true);
-        const response = await fetch('http://localhost:3001/api/config/saved');
+        const response = await fetch(`${config.apiUrl}/api/config/saved`);
         const data = await response.json();
         setSavedConfig(data);
       } catch (error) {
@@ -94,7 +95,7 @@ export const SavedConfigDisplay: React.FC<SavedConfigDisplayProps> = ({
   useEffect(() => {
     const checkOrquestadorStatus = async () => {
       try {
-        const response = await fetch('http://localhost:3001/api/status');
+        const response = await fetch(`${config.apiUrl}/api/status`);
         const status = await response.json();
         setOrquestadorStatus(prev => ({
           ...prev,

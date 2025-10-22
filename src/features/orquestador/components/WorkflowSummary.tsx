@@ -7,6 +7,7 @@ import { ArrowRight, Clock, FileText, Database, Settings, Zap, Palette } from 'l
 import { Card } from '../../../components/ui/card';
 import { Badge } from '../../../components/ui/badge';
 import { WorkflowStep } from './WorkflowSteps';
+import { config } from '../../../lib/config';
 
 interface WorkflowSummaryProps {
   steps: WorkflowStep[];
@@ -27,7 +28,7 @@ export const WorkflowSummary: React.FC<WorkflowSummaryProps> = ({ steps }) => {
         // Calcular tiempo para cada paso
         for (const step of steps) {
           if (step.enabled && step.jsonFile) {
-            const response = await fetch('http://localhost:3001/api/calculate-time', {
+            const response = await fetch(`${config.apiUrl}/api/calculate-time`, {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
