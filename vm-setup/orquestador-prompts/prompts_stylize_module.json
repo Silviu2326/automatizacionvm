@@ -1,0 +1,10 @@
+{
+  "prompt": "Aplica la guía de estilos del archivo {{archivoestilos}} al módulo @src\\features\\{{modulo}}. Revisa el archivo de estilos y aplica consistentemente el diseño, colores, tipografías y componentes UI especificados en la guía. Asegúrate de que todos los elementos del módulo sigan el sistema de diseño establecido.",
+  "descripcion": "Prompt para aplicar guía de estilos a módulos existentes",
+  "tipo": "stylize-module",
+  "configuracion": {
+    "tiempo_espera": 30,
+    "reintentos": 2,
+    "formato_salida": "modulo_estilizado"
+  }
+}

@@ -69,3 +69,6 @@ echo "📊 Ejecutar: ./monitor.sh"
 echo "📝 Logs: tail -f monitoring.log"
 
 
+
+
+

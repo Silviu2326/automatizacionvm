@@ -1,0 +1,180 @@
+{
+  "modulos": [
+
+    {
+      "modulo": "ObjetivosProductividades",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "HorariosTurnos",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "GestionRolesPortalPaciente",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "RecordatoriosPreparacionCuidadosPostoperatorios",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "ChatVideoconsulta",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "DocumentosResultadosPortal",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "PresupuestosConsentimientosFirmar",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "PagosFinanciacionPortalPaciente",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "CitasOnlineDocumentacion",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "GestionRolesComunicacion",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "PlantillasCampanas",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "FlujosAutomaticos",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "Mensajeria",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "GestionRolesMarketing",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "Programas",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "NPSResenas",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "RecallPreventivo",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "SegmentacionTratamientoFecha",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "Campanas",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "Embudo360",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "GestionRolesLaboratorio",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "CAD_CAM_Impresion3D",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "OrdenesLaboratorio",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "GestionRolesInventario",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "MantenimientoEquipos",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "ResiduosSanitarios",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "TrazabilidadMaterialEsteril",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "ComprasProveedores",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "GestionRolesFacturacion",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "ExportContable",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "DeudaReclamaciones",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "FinanciacionPaciente",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "CobrosRemesas",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "GestionRolesTratamientos",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "ConversionGananciaEsperada",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "ConsentimientosTratamiento",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "Planificacion",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "GestionRolesImagen",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "AIAssistida",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "GaleriaMultimedia",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "IntegracionHW",
+      "archivoestilos": "guiaestilos.md"
+    },
+    {
+      "modulo": "DICOM_PACS",
+      "archivoestilos": "guiaestilos.md"
+    }
+  ],
+  "configuracion": {
+    "tiempo_espera": 30,
+    "modo": "secuencial",
+    "reintentos": 2
+  },
+  "descripcion": "Archivo con 67 módulos para aplicar guía de estilos a todos los módulos del sistema dental"
+}
+

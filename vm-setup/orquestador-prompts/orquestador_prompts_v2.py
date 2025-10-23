@@ -300,6 +300,47 @@ class OrquestadorPrompts:
                 else:
                     print(f"⚠️ Plantilla no encontrada en: {plantilla_path}")
                     prompt = f"{prefix}Convierte este MD a módulo: {json.dumps(data, indent=2)}{suffix}"
+            elif mode == 'stylize-module':
+                # Cargar prompt específico para stylize-module
+                prompt_file = os.path.join(os.path.dirname(__file__), 'prompts_stylize_module.json')
+                print(f"🎨 Modo stylize-module detectado")
+                print(f"🔍 Buscando prompt en: {prompt_file}")
+                
+                if os.path.exists(prompt_file):
+                    with open(prompt_file, 'r', encoding='utf-8') as f:
+                        prompt_config = json.load(f)
+                    print(f"📄 Configuración de prompt cargada: {len(prompt_config)} elementos")
+                    
+                    # Obtener el prompt base
+                    base_prompt = prompt_config.get('prompt', 'Aplica estilos al módulo')
+                    print(f"📝 Prompt base: {base_prompt[:100]}...")
+                    
+                    # Reemplazar variables en el prompt
+                    if hasattr(self, 'current_modulo_info') and self.current_modulo_info:
+                        modulo_info = self.current_modulo_info
+                        modulo_name = modulo_info.get('modulo', 'Modulo')
+                        archivo_estilos = modulo_info.get('archivoestilos', 'guiaestilos.md')
+                        
+                        # Reemplazar variables en el prompt
+                        styled_prompt = base_prompt.replace('{{modulo}}', modulo_name)
+                        styled_prompt = styled_prompt.replace('{{archivoestilos}}', archivo_estilos)
+                        
+                        print(f"🔄 Variables reemplazadas: {modulo_name} -> {archivo_estilos}")
+                        prompt = f"{prefix}{styled_prompt}{suffix}"
+                        print(f"📝 Prompt stylize generado: {prompt[:100]}...")
+                    else:
+                        print(f"⚠️ No hay información de módulo disponible")
+                        prompt = f"{prefix}{base_prompt}{suffix}"
+                else:
+                    print(f"⚠️ Archivo de prompt stylize no encontrado: {prompt_file}")
+                    # Fallback: prompt genérico para stylize
+                    if hasattr(self, 'current_modulo_info') and self.current_modulo_info:
+                        modulo_info = self.current_modulo_info
+                        modulo_name = modulo_info.get('modulo', 'Modulo')
+                        archivo_estilos = modulo_info.get('archivoestilos', 'guiaestilos.md')
+                        prompt = f"{prefix}Aplica la guía de estilos del archivo {archivo_estilos} al módulo @src\\features\\{modulo_name}. Revisa el archivo de estilos y aplica consistentemente el diseño, colores, tipografías y componentes UI especificados en la guía.{suffix}"
+                    else:
+                        prompt = f"{prefix}Aplica estilos consistentes al módulo basándote en la guía de estilos proporcionada.{suffix}"
             else:
                 prompt = f"{prefix}Procesa este archivo: {json.dumps(data, indent=2)}{suffix}"
             

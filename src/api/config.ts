@@ -7,14 +7,14 @@ export const config = {
   port: process.env.API_PORT || 3001,
   
   // URL del frontend
-  frontendUrl: process.env.FRONTEND_URL || 'http://localhost:5173',
+  frontendUrl: process.env.FRONTEND_URL || 'http://34.175.149.246:5173',
   
   // Ruta del orquestador Python
   orquestadorPath: process.env.ORQUESTADOR_PATH || '../../orquestador-prompts',
   
   // Configuración de CORS
   cors: {
-    origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+    origin: process.env.FRONTEND_URL || 'http://34.175.149.246:5173',
     credentials: true
   },
   

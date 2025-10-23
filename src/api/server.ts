@@ -26,7 +26,7 @@ const PORT = process.env.API_PORT || 3001;
 
 // Middleware
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+  origin: process.env.FRONTEND_URL || 'http://34.175.149.246:5173',
   credentials: true
 }));
 app.use(express.json({ limit: '50mb' }));
@@ -65,8 +65,8 @@ app.use((err: any, req: express.Request, res: express.Response, next: express.Ne
 // Iniciar servidor
 server.listen(PORT, () => {
   console.log(`🚀 Servidor API ejecutándose en puerto ${PORT}`);
-  console.log(`📡 WebSocket disponible en ws://localhost:${PORT}`);
-  console.log(`🌐 Frontend: ${process.env.FRONTEND_URL || 'http://localhost:5173'}`);
+  console.log(`📡 WebSocket disponible en ws://34.175.149.246:${PORT}`);
+  console.log(`🌐 Frontend: ${process.env.FRONTEND_URL || 'http://34.175.149.246:5173'}`);
   console.log(`📁 Orquestador: ${path.join(__dirname, '../../orquestador-prompts')}`);
 });
 

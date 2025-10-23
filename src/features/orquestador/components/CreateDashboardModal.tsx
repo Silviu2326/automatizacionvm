@@ -18,7 +18,7 @@ export const CreateDashboardModal: React.FC<CreateDashboardModalProps> = ({
   onCreate
 }) => {
   const [name, setName] = useState('');
-  const [vmHost, setVmHost] = useState('localhost');
+  const [vmHost, setVmHost] = useState('34.175.149.246');
   const [vmPort, setVmPort] = useState(3001);
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -74,7 +74,7 @@ export const CreateDashboardModal: React.FC<CreateDashboardModalProps> = ({
               type="text"
               value={vmHost}
               onChange={(e) => setVmHost(e.target.value)}
-              placeholder="localhost, 192.168.1.100, etc."
+              placeholder="34.175.149.246, 192.168.1.100, etc."
               className="mt-1"
               required
             />

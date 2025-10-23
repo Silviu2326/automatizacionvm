@@ -1,0 +1,286 @@
+{
+  "modulos": [
+    {
+        "modulo": "Odontograma2D3D",
+        "archivo_md": "🦷 Odontograma 2D_3D.md"
+      },
+      {
+        "modulo": "Periodontograma",
+        "archivo_md": "🦷 Periodontograma.md"
+      },
+      {
+        "modulo": "AgendaInteligente",
+        "archivo_md": "🧠 Agenda Inteligente.md"
+      },
+      {
+        "modulo": "AlertasClinicasContraindicaciones",
+        "archivo_md": "🚨 Alertas Clínicas & Contraindicaciones.md"
+      },
+      {
+        "modulo": "RecepcionCheckin",
+        "archivo_md": "🛎️ Recepción & Check-in.md"
+      },
+      {
+        "modulo": "GestionRolesCRM",
+        "archivo_md": "🛡️ Gestión de Roles CRM.md"
+      },
+       {
+         "modulo": "GestionRolesHC",
+         "archivo_md": "🛡️ Gestión de Roles HC.md"
+       },
+     {
+      "modulo": "PasarelasPago",
+      "archivo_md": "💳 Pasarelas de Pago (Integraciones).md"
+    },
+    {
+      "modulo": "Eprescripcion",
+      "archivo_md": "💊 E-prescripción (Integraciones).md"
+    },
+    {
+      "modulo": "PACS_DICOM",
+      "archivo_md": "🏥 PACS_DICOM (Integraciones).md"
+    },
+    {
+      "modulo": "GestionRolesAutomatizaciones",
+      "archivo_md": "🔐 Gestión de Roles (Automatizaciones).md"
+    },
+    {
+      "modulo": "TareasAutomaticasInternas",
+      "archivo_md": "🤖 Tareas Automáticas Internas.md"
+    },
+    {
+      "modulo": "WorkflowsEspecialidad",
+      "archivo_md": "🔄 Workflows por Especialidad.md"
+    },
+    {
+      "modulo": "ReglasSiXEntoncesY",
+      "archivo_md": "⚙️ Reglas (si X entonces Y).md"
+    },
+    {
+      "modulo": "GestionRolesAnalitica",
+      "archivo_md": "👥 Gestión de Roles (Analítica).md"
+    },
+    {
+      "modulo": "ExportadorCubosConectoresBI",
+      "archivo_md": "📤 Exportador & Cubos (Conectores BI).md"
+    },
+    {
+      "modulo": "CuadrosPorRol",
+      "archivo_md": "📊 Cuadros por Rol.md"
+    },
+    {
+      "modulo": "KPIsEconomicos",
+      "archivo_md": "💰 KPIs Económicos.md"
+    },
+    {
+      "modulo": "KPIsClinicos",
+      "archivo_md": "🏥 KPIs Clínicos.md"
+    },
+    {
+      "modulo": "KPIsOperativos",
+      "archivo_md": "📊 KPIs Operativos.md"
+    },
+    {
+      "modulo": "GestionRolesCompliance",
+      "archivo_md": "👥 Gestión de Roles (Compliance).md"
+    },
+    {
+      "modulo": "EnsayosInvestigacion",
+      "archivo_md": "🔬 Ensayos_Investigación (Opcional).md"
+    },
+    {
+      "modulo": "ProtocolosChecklists",
+      "archivo_md": "📋 Protocolos & Checklists.md"
+    },
+    {
+      "modulo": "HistorialCambiosAuditLog",
+      "archivo_md": "📋 Historial de Cambios (Audit Log).md"
+    },
+    {
+      "modulo": "RGPD_LOPDGDD",
+      "archivo_md": "🔒 RGPD_LOPDGDD.md"
+    },
+    {
+      "modulo": "GestionRolesRRHH",
+      "archivo_md": "👥 Gestión de Roles (RR. HH.).md"
+    },
+    {
+      "modulo": "RetribucionVariableComisiones",
+      "archivo_md": "💰 Retribución Variable (Comisiones).md"
+    },
+    {
+      "modulo": "ObjetivosProductividades",
+      "archivo_md": "🎯 Objetivos & Productividades.md"
+    },
+    {
+      "modulo": "HorariosTurnos",
+      "archivo_md": "Horarios & Turnos.md"
+    },
+    {
+      "modulo": "GestionRolesPortalPaciente",
+      "archivo_md": "Gestión de Roles (Portal Paciente).md"
+    },
+    {
+      "modulo": "RecordatoriosPreparacionCuidadosPostoperatorios",
+      "archivo_md": "Recordatorios, Preparación y Cuidados Post-operatorios.md"
+    },
+    {
+      "modulo": "ChatVideoconsulta",
+      "archivo_md": "Chat y Videoconsulta.md"
+    },
+    {
+      "modulo": "DocumentosResultadosPortal",
+      "archivo_md": "Documentos & Resultados (Portal).md"
+    },
+    {
+      "modulo": "PresupuestosConsentimientosFirmar",
+      "archivo_md": "Presupuestos y Consentimientos a Firmar.md"
+    },
+    {
+      "modulo": "PagosFinanciacionPortalPaciente",
+      "archivo_md": "Pagos y Financiacion - Portal Paciente.md"
+    },
+    {
+      "modulo": "CitasOnlineDocumentacion",
+      "archivo_md": "Citas Online - Documentación.md"
+    },
+    {
+      "modulo": "GestionRolesComunicacion",
+      "archivo_md": "👥 Gestión de Roles Comunicación.md"
+    },
+    {
+      "modulo": "PlantillasCampanas",
+      "archivo_md": "🧩 Plantillas & Campañas.md"
+    },
+    {
+      "modulo": "FlujosAutomaticos",
+      "archivo_md": "🤖 Flujos Automáticos.md"
+    },
+    {
+      "modulo": "Mensajeria",
+      "archivo_md": "💬 Mensajería.md"
+    },
+    {
+      "modulo": "GestionRolesMarketing",
+      "archivo_md": "👥 Gestión de Roles Marketing.md"
+    },
+    {
+      "modulo": "Programas",
+      "archivo_md": "🎁 Programas.md"
+    },
+    {
+      "modulo": "NPSResenas",
+      "archivo_md": "⭐ NPS & Reseñas.md"
+    },
+    {
+      "modulo": "RecallPreventivo",
+      "archivo_md": "🔄 Recall Preventivo.md"
+    },
+    {
+      "modulo": "SegmentacionTratamientoFecha",
+      "archivo_md": "🎯 Segmentación por Tratamiento_Fecha.md"
+    },
+    {
+      "modulo": "Campanas",
+      "archivo_md": "📣 Campañas.md"
+    },
+    {
+      "modulo": "Embudo360",
+      "archivo_md": "📈 Embudo 360.md"
+    },
+    {
+      "modulo": "GestionRolesLaboratorio",
+      "archivo_md": "👥 Gestión de Roles Laboratorio.md"
+    },
+    {
+      "modulo": "CAD_CAM_Impresion3D",
+      "archivo_md": "CAD_CAM & Impresión 3D.md"
+    },
+    {
+      "modulo": "OrdenesLaboratorio",
+      "archivo_md": "Órdenes a Laboratorio.md"
+    },
+    {
+      "modulo": "GestionRolesInventario",
+      "archivo_md": "Gestión de Roles Inventario.md"
+    },
+    {
+      "modulo": "MantenimientoEquipos",
+      "archivo_md": "Mantenimiento de Equipos.md"
+    },
+    {
+      "modulo": "ResiduosSanitarios",
+      "archivo_md": "Residuos Sanitarios.md"
+    },
+    {
+      "modulo": "TrazabilidadMaterialEsteril",
+      "archivo_md": "Trazabilidad de Material Estéril.md"
+    },
+    {
+      "modulo": "ComprasProveedores",
+      "archivo_md": "Compras & Proveedores.md"
+    },
+    {
+      "modulo": "GestionRolesFacturacion",
+      "archivo_md": "Gestión de Roles Facturación.md"
+    },
+    {
+      "modulo": "ExportContable",
+      "archivo_md": "Export Contable.md"
+    },
+    {
+      "modulo": "DeudaReclamaciones",
+      "archivo_md": "Deuda & Reclamaciones.md"
+    },
+    {
+      "modulo": "FinanciacionPaciente",
+      "archivo_md": "Financiación al Paciente.md"
+    },
+    {
+      "modulo": "CobrosRemesas",
+      "archivo_md": "Cobros & Remesas.md"
+    },
+    {
+      "modulo": "GestionRolesTratamientos",
+      "archivo_md": "🛡️ Gestión de Roles Tratamientos.md"
+    },
+    {
+      "modulo": "ConversionGananciaEsperada",
+      "archivo_md": "📈 Conversión & Ganancia Esperada.md"
+    },
+    {
+      "modulo": "ConsentimientosTratamiento",
+      "archivo_md": "✍️ Consentimientos por Tratamiento.md"
+    },
+    {
+      "modulo": "Planificacion",
+      "archivo_md": "🗺️ Planificación.md"
+    },
+    {
+      "modulo": "GestionRolesImagen",
+      "archivo_md": "🛡️ Gestión de Roles Imagen.md"
+    },
+    {
+      "modulo": "AIAssistida",
+      "archivo_md": "🤖 AI Asistida.md"
+    },
+    {
+      "modulo": "GaleriaMultimedia",
+      "archivo_md": "🖼️ Galería Multimedia.md"
+    },
+    {
+      "modulo": "IntegracionHW",
+      "archivo_md": "🔌 Integración HW.md"
+    },
+    {
+      "modulo": "DICOM_PACS",
+      "archivo_md": "🩻 DICOM_PACS.md"
+    }
+  ],
+  "configuracion": {
+    "tiempo_espera": 30,
+    "modo": "secuencial",
+    "reintentos": 2
+  },
+  "descripcion": "Archivo con 60 módulos de páginas individuales para el modo MD → Módulo del sistema dental - Página 2"
+}

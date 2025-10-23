@@ -1,0 +1,42 @@
+{
+  "modulos": [
+ 
+   
+    {
+      "modulo": "Odontograma2D3D",
+      "archivo_md": "🦷 Odontograma 2D_3D.md"
+    },
+    {
+      "modulo": "Periodontograma",
+      "archivo_md": "🦷 Periodontograma.md"
+    },
+    {
+      "modulo": "AgendaInteligente",
+      "archivo_md": "🧠 Agenda Inteligente.md"
+    },
+    {
+      "modulo": "AlertasClinicasContraindicaciones",
+      "archivo_md": "🚨 Alertas Clínicas & Contraindicaciones.md"
+    },
+    {
+      "modulo": "RecepcionCheckin",
+      "archivo_md": "🛎️ Recepción & Check-in.md"
+    },
+    {
+      "modulo": "GestionRolesCRM",
+      "archivo_md": "🛡️ Gestión de Roles CRM.md"
+    },
+    {
+      "modulo": "GestionRolesHC",
+      "archivo_md": "🛡️ Gestión de Roles HC.md"
+    }
+  ],
+  "configuracion": {
+    "tiempo_espera": 30,
+    "modo": "secuencial",
+    "reintentos": 2
+  },
+  "descripcion": "Archivo con 18 módulos de páginas individuales para el modo MD → Módulo del sistema dental"
+}
+
+

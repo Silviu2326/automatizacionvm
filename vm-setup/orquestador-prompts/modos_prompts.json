@@ -6,6 +6,12 @@
       "ejemplo": "ejemplo_md_modulo_simple.json",
       "campos_requeridos": ["modulo", "archivo_md"]
     },
+    "stylize-module": {
+      "prompt_file": "prompts_stylize_module.json",
+      "descripcion": "Aplica guía de estilos a módulos existentes",
+      "ejemplo": "ejemplo_md_modulo_paginas_individuales_estilos.json",
+      "campos_requeridos": ["modulo", "archivoestilos"]
+    },
     "json_notion": {
       "prompt_file": "prompts_json_notion.json",
       "descripcion": "Convierte JSON a páginas de Notion",
@@ -25,5 +31,8 @@
     "formato_salida_default": "archivo_estructurado"
   }
 }
+
+
+
 
 

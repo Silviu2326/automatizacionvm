@@ -22,3 +22,6 @@ echo "🔒 Certificado válido para: $DOMAIN"
 echo "🔄 Renovación automática configurada"
 
 
+
+
+

@@ -63,3 +63,6 @@ echo "🌐 El servidor estará disponible en: http://tu-vm-ip:3001"
 echo "📱 Configura FRONTEND_URL en .env con tu URL de Vercel"
 
 
+
+
+

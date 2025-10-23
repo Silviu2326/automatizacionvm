@@ -43,3 +43,6 @@ echo "   curl http://tu-vm-ip:3001/api/health"
 echo "   wscat -c ws://tu-vm-ip:3001"
 
 
+
+
+
